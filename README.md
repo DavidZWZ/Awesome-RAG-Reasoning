@@ -3,6 +3,10 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<p align="center">
+  <img src="assets/RAG_Reasoning.png" alt="RAG and Reasoning System Overview" width="600"/>
+</p>
+
 A curated collection of resources, papers, tools, and implementations that bridge the gap between **Retrieval-Augmented Generation (RAG)** and **Reasoning** in Large Language Models. This repository brings together traditionally separate research domains to enable more powerful AI systems.
 
 ## 📖 Introduction
@@ -11,7 +15,7 @@ A curated collection of resources, papers, tools, and implementations that bridg
 
 **Reasoning** has recently gained significant popularity as a complementary approach to enhance LLM performance. Reasoning techniques focus on improving the model's ability to process information, perform logical analysis, and arrive at conclusions through structured thinking processes. These methods enable LLMs to tackle complex problems that require multi-step inference, causal understanding, and systematic problem-solving.
 
-Although RAG and Reasoning address different aspects of the model's capabilities. ** they have been developed largely independently**, with separate research communities, methodologies, and evaluation benchmarks:
+Although RAG and Reasoning address different aspects of the model's capabilities. **they have been developed largely independently**, with separate research communities, methodologies, and evaluation benchmarks:
 
 **🔍 RAG Community**: Focused on knowledge retrieval, document processing, and factual grounding
 - **Key Mechanism**: Query → Retrieve → Augment → Generate
