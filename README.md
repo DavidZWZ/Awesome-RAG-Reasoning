@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-  <img src="assets/RAG_Reasoning.png" alt="RAG and Reasoning System Overview" width="600"/>
+  <img src="Assets/RAG_Reasoning.png" alt="RAG and Reasoning System Overview" width="600"/>
 </p>
 
 A curated collection of resources, papers, tools, and implementations that bridge the gap between **Retrieval-Augmented Generation (RAG)** and **Reasoning** in Large Language Models. This repository brings together traditionally separate research domains to enable more powerful AI systems.
