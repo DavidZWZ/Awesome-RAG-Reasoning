@@ -16,37 +16,33 @@ A curated collection of resources, papers, tools, and implementations that bridg
 Modern approaches to improving LLM performance have converged on two main paradigms, each addressing different aspects of the model's capabilities. **These domains have been developed largely independently**, with separate research communities, methodologies, and evaluation benchmarks:
 
 **🔍 RAG Community**: Focused on knowledge retrieval, document processing, and factual grounding
-**🧠 Reasoning Community**: Focused on logical inference, step-by-step thinking, and problem decomposition
-
-**This repository serves as a comprehensive collection that bridges these traditionally separate domains**, providing resources for researchers and practitioners interested in combining the strengths of both approaches.
-
-**🔍 Naive RAG**
 - **Core Concept**: Retrieves and incorporates external knowledge to augment the model's factual base
 - **Primary Goal**: Bridge the knowledge gap by providing access to information beyond training data
 - **Key Mechanism**: Query → Retrieve → Augment → Generate
+- **Use Cases**: Question answering, fact verification, domain-specific applications
 - **Limitations**:
   - Falls short on problems requiring multi-step thinking
   - May retrieve irrelevant or outdated information
   - Limited by the quality and coverage of external knowledge bases
-  - Can struggle with complex expert-level tasks despite having relevant facts
-- **Use Cases**: Question answering, fact verification, domain-specific applications
 
-**🧠 Pure Reasoning**
+**🧠 Reasoning Community**: Focused on logical inference, step-by-step thinking, and problem decomposition
 - **Core Concept**: Enhances the model's ability to manipulate and reason with internal knowledge
 - **Primary Goal**: Improve logical thinking, step-by-step analysis, and problem-solving capabilities
 - **Key Mechanism**: Problem → Decompose → Reason → Synthesize
+- **Use Cases**: Mathematical reasoning, logical puzzles, strategic planning, causal analysis
 - **Limitations**:
   - Often hallucinates or mis-grounds facts
-  - Limited to knowledge present in training data
   - May produce logically sound but factually incorrect conclusions
   - Struggles with up-to-date or domain-specific information
-- **Use Cases**: Mathematical reasoning, logical puzzles, strategic planning, causal analysis
+
+**This repository serves as a comprehensive collection that bridges these traditionally separate domains**, providing resources for researchers and practitioners interested in combining the strengths of both approaches.
+
 
 ### Why RAG + Reasoning?
 
 Large Language Models (LLMs) serve as the foundation for modern AI systems, but they face significant limitations in both knowledge access and reasoning capabilities. 
 
-#### Two Complementary Approaches:
+#### Complementary Perspectives:
 **🔍 RAG (Retrieval-Augmented Generation) - External Knowledge Exploration**
 - **Benefits**: 
   - Provides up-to-date and domain-specific information
