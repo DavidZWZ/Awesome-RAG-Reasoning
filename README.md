@@ -11,28 +11,20 @@ A curated collection of resources, papers, tools, and implementations that bridg
 
 **Reasoning** has recently gained significant popularity as a complementary approach to enhance LLM performance. Reasoning techniques focus on improving the model's ability to process information, perform logical analysis, and arrive at conclusions through structured thinking processes. These methods enable LLMs to tackle complex problems that require multi-step inference, causal understanding, and systematic problem-solving.
 
-### Two Complementary Paradigms for LLM Enhancement
-
-Modern approaches to improving LLM performance have converged on two main paradigms, each addressing different aspects of the model's capabilities. **These domains have been developed largely independently**, with separate research communities, methodologies, and evaluation benchmarks:
+Although RAG and Reasoning address different aspects of the model's capabilities. ** they have been developed largely independently**, with separate research communities, methodologies, and evaluation benchmarks:
 
 **🔍 RAG Community**: Focused on knowledge retrieval, document processing, and factual grounding
-- **Core Concept**: Retrieves and incorporates external knowledge to augment the model's factual base
-- **Primary Goal**: Bridge the knowledge gap by providing access to information beyond training data
 - **Key Mechanism**: Query → Retrieve → Augment → Generate
 - **Use Cases**: Question answering, fact verification, domain-specific applications
 - **Limitations**:
-  - Falls short on problems requiring multi-step thinking
-  - May retrieve irrelevant or outdated information
+  - May retrieve irrelevant or inaccurate information
   - Limited by the quality and coverage of external knowledge bases
 
 **🧠 Reasoning Community**: Focused on logical inference, step-by-step thinking, and problem decomposition
-- **Core Concept**: Enhances the model's ability to manipulate and reason with internal knowledge
-- **Primary Goal**: Improve logical thinking, step-by-step analysis, and problem-solving capabilities
 - **Key Mechanism**: Problem → Decompose → Reason → Synthesize
 - **Use Cases**: Mathematical reasoning, logical puzzles, strategic planning, causal analysis
 - **Limitations**:
   - Often hallucinates or mis-grounds facts
-  - May produce logically sound but factually incorrect conclusions
   - Struggles with up-to-date or domain-specific information
 
 **This repository serves as a comprehensive collection that bridges these traditionally separate domains**, providing resources for researchers and practitioners interested in combining the strengths of both approaches.
