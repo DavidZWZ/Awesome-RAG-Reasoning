@@ -118,6 +118,8 @@ This repository organizes resources across several key areas:
 - (NAACL 2025) **Meta-Reasoning Improves Tool Use in Large Language Models** [[Paper]](https://arxiv.org/pdf/2411.04535) [[Code]](https://github.com/lisaalaz/tecton?tab=readme-ov-file) ![GitHub Repo stars](https://img.shields.io/github/stars/lisaalaz/tecton?style=social)
 - (ArXiv 2025) **Self-Training Large Language Models for Tool-Use Without Demonstrations** [[Paper]](https://arxiv.org/pdf/2502.05867) [[Code]](https://github.com/neneluo/llm-tool-use) ![GitHub Repo stars](https://img.shields.io/github/stars/neneluo/llm-tool-use?style=social)
 
+- (ICLR 2024) **Large Language Models As Tool Makers** [[Paper]](https://arxiv.org/pdf/2305.17126) [[Code]](https://github.com/ctlllll/LLM-ToolMaker) ![GitHub Repo stars](https://img.shields.io/github/stars/ctlllll/LLM-ToolMaker?style=social)
+- (ICLR 2024) **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** [[Paper]](https://openreview.net/pdf?id=dHng2O0Jjr) [[Code]](https://github.com/OpenBMB/ToolBench) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenBMB/ToolBench?style=social)
 - (NeurIPS 2024) **AVATAR: Optimizing LLM Agents for Tool Usage via Contrastive Reasoning** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/2db8ce969b000fe0b3fb172490c33ce8-Paper-Conference.pdf) [[Code]](https://github.com/zou-group/avatar) ![GitHub Repo stars](https://img.shields.io/github/stars/zou-group/avatar?style=social)
 - (EMNLP 2024) **Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval** [[Paper]](https://aclanthology.org/2024.findings-emnlp.270.pdf)
 - (EMNLP 2024) **SCIAGENT: Tool-augmented Language Models for Scientific Reasoning** [[Paper]](https://aclanthology.org/2024.emnlp-main.880.pdf)
@@ -126,12 +128,8 @@ This repository organizes resources across several key areas:
 - (LREC-COLING 2024) **Towards Autonomous Tool Utilization in Language Models: A Unified, Efficient and Scalable Framework** [[Paper]](https://aclanthology.org/2024.lrec-main.1427.pdf)
 - (NAACL 2024) **Making Language Models Better Tool Learners with Execution Feedback** [[Paper]](https://aclanthology.org/2024.naacl-long.195.pdf) [[Code]](https://github.com/zjunlp/TRICE) ![GitHub Repo stars](https://img.shields.io/github/stars/zjunlp/TRICE?style=social)
 
-#### 2023
 - (NeurIPS 2023) **ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/8fd1a81c882cd45f64958da6284f4a3f-Paper-Conference.pdf) [[Code]](https://github.com/Ber666/ToolkenGPT) ![GitHub Repo stars](https://img.shields.io/github/stars/Ber666/ToolkenGPT?style=social)
 
-#### 2024 (Additional)
-- (ICLR 2024) **LARGE LANGUAGE MODELS AS TOOL MAKERS** [[Paper]](https://arxiv.org/pdf/2305.17126) [[Code]](https://github.com/ctlllll/LLM-ToolMaker) ![GitHub Repo stars](https://img.shields.io/github/stars/ctlllll/LLM-ToolMaker?style=social)
-- (ICLR 2024) **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** [[Paper]](https://openreview.net/pdf?id=dHng2O0Jjr) [[Code]](https://github.com/OpenBMB/ToolBench) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenBMB/ToolBench?style=social)
 
 ## In-context Retrieval
 
@@ -157,7 +155,6 @@ This repository organizes resources across several key areas:
 - (NeurIPS 2024) **Mixture of Demonstrations for In-Context Learning** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/a0da098e0031f58269efdcba40eedf47-Paper-Conference.pdf) [[Code]](https://github.com/SongW-SW/MoD?tab=readme-ov-file) ![GitHub Repo stars](https://img.shields.io/github/stars/SongW-SW/MoD?style=social)
 - (EACL 2024) **Learning to Retrieve In-Context Examples for Large Language Models** [[Paper]](https://aclanthology.org/2024.eacl-long.105.pdf) [[Code]](https://github.com/microsoft/LMOps/tree/main/llm_retriever) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/LMOps?style=social)
 
-#### 2023
 - (EMNLP 2023) **UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation** [[Paper]](https://aclanthology.org/2023.emnlp-main.758.pdf) [[Code]](https://github.com/microsoft/LMOps) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/LMOps?style=social)
 - (ArXiv 2023) **Dr.ICL: Demonstration-Retrieved In-context Learning** [[Paper]](https://arxiv.org/pdf/2305.14128)
 
