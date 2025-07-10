@@ -229,6 +229,71 @@ This repository organizes resources across several key areas:
 - (ArXiv 2024) **KG-RAG: Bridging the Gap Between Knowledge and Creativity​** [[Paper]](https://arxiv.org/pdf/2405.12035)
 - (ArXiv 2024) **Mitigating Hallucinations in Large Language Models via Self-Refinement-Enhanced Knowledge Retrieval** [[Paper]](https://arxiv.org/pdf/2405.06545)
 
+### Agentic Orchestration
+
+#### Single-Agent
+
+##### Prompting
+- (ArXiv 2025) **Search-o1: Agentic Search-Enhanced Large Reasoning Models** [[Paper]](https://arxiv.org/pdf/2501.05366) [[Code]](https://github.com/sunnynexus/Search-o1) ![GitHub Repo stars](https://img.shields.io/github/stars/sunnynexus/Search-o1?style=social)
+- (ArXiv 2025) **Plan∗RAG: Efficient Test-Time Planning for Retrieval Augmented Generation** [[Paper]](https://arxiv.org/pdf/2410.20753)
+- (ArXiv 2025) **Open Deep Search: Democratizing Search with Open-source Reasoning Agents** [[Paper]](https://arxiv.org/pdf/2503.20201) [[Code]](https://github.com/sentient-agi/OpenDeepSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/sentient-agi/OpenDeepSearch?style=social)
+- (ArXiv 2025) **DeepRAG: Thinking to Retrieval Step by Step for Large Language Models** [[Paper]](https://arxiv.org/pdf/2502.01142)
+- (ArXiv 2025) **Enhancing Retrieval Systems with Inference-Time Logical Reasoning** [[Paper]](https://arxiv.org/pdf/2503.17860)
+- (ArXiv 2025) **Self-Taught Agentic Long-Context Understanding** [[Paper]](https://arxiv.org/pdf/2502.15920)
+
+- (ICLR 2024) **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection** [[Paper]](https://openreview.net/forum?id=hSyW5go0v8) [[Code]](https://github.com/AkariAsai/self-rag) ![GitHub Repo stars](https://img.shields.io/github/stars/AkariAsai/self-rag?style=social)
+- (KDD Cup 2024) **A Hybrid RAG System with Comprehensive Enhancement on Complex Reasoning** [[Paper]](https://arxiv.org/pdf/2408.05141)
+
+- (ICLR 2023) **ReAct: Synergizing Reasoning and Acting in Language Models** [[Paper]](https://arxiv.org/pdf/2210.03629) [[Code]](https://github.com/ysymyth/ReAct) ![GitHub Repo stars](https://img.shields.io/github/stars/ysymyth/ReAct?style=social)
+- (EMNLP 2023) **Measuring and Narrowing the Compositionality Gap in Language Models** [[Paper]](https://arxiv.org/pdf/2501.05366)
+- (ACL 2023) **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** [[Paper]](https://arxiv.org/pdf/2410.20753)
+
+##### Supervised Fine-Tuning
+
+- (EMNLP 2024) **REAR: A Relevance-Aware Retrieval-Augmented Framework for Open-Domain Question Answering** [[Paper]](https://arxiv.org/pdf/2402.17497)
+- (EMNLP 2024) **RAG-Studio: Towards In-Domain Adaptation of Retrieval Augmented Generation Through Self-Alignment** [[Paper]](https://aclanthology.org/2024.findings-emnlp.41.pdf)
+- (ICML 2024) **InstructRetro: Instruction Tuning post Retrieval-Augmented Pretraining** [[Paper]](https://arxiv.org/pdf/2310.07713)
+- (ICML 2024) **INTERS: Unlocking the Power of Large Language Models in Search with Instruction Tuning** [[Paper]](https://arxiv.org/pdf/2401.06532) [[Code]](https://github.com/DaoD/INTERS) ![GitHub Repo stars](https://img.shields.io/github/stars/DaoD/INTERS?style=social)
+- (ICLR 2024) **Ra-dit: Retrieval-augmented dual instruction tuning** [[Paper]](https://openreview.net/pdf?id=22OTbutug9)
+- (COLM 2024) **RAFT: Adapting Language Model to Domain Specific RAG** [[Paper]](https://openreview.net/pdf?id=rzQGHXNReU)
+- (SR 2024) **A fine-tuning enhanced RAG system with quantized influence measure as AI judge** [[Paper]](https://www.nature.com/articles/s41598-024-79110-x?utm_source=chatgpt.com)
+- (ArXiv 2024) **SFR-RAG: Towards Contextually Faithful LLMs** [[Paper]](https://arxiv.org/pdf/2409.09916) [[Code]](https://github.com/SalesforceAIResearch/SFR-RAG) ![GitHub Repo stars](https://img.shields.io/github/stars/SalesforceAIResearch/SFR-RAG?style=social)
+
+- (NeurIPS 2023) **Toolformer: Language Models Can Teach Themselves to Use Tools** [[Paper]](https://arxiv.org/pdf/2302.04761)
+
+##### Reinforcement Learning
+
+- (ArXiv 2025) **DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments** [[Paper]](https://arxiv.org/pdf/2504.03160?) [[Code]](https://github.com/GAIR-NLP/DeepResearcher) ![GitHub Repo stars](https://img.shields.io/github/stars/GAIR-NLP/DeepResearcher?style=social)
+- (ArXiv 2025) **Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2503.09516) [[Code]](https://github.com/PeterGriffinJin/Search-R1) ![GitHub Repo stars](https://img.shields.io/github/stars/PeterGriffinJin/Search-R1?style=social)
+- (ArXiv 2025) **R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2503.05592) [[Code]](https://github.com/RUCAIBox/R1-Searcher) ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/R1-Searcher?style=social)
+- (ArXiv 2025) **ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2503.19470) [[Code]](https://github.com/Agent-RL/ReSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/Agent-RL/ReSearch?style=social)
+- (ArXiv 2025) **ZeroSearch: Incentivize the Search Capability of LLMs without Searching** [[Paper]](https://arxiv.org/pdf/2505.04588) [[Code]](https://github.com/Alibaba-NLP/ZeroSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-NLP/ZeroSearch?style=social)
+- (ArXiv 2025) **ReARTeR: Retrieval-Augmented Reasoning with Trustworthy Process Rewarding** [[Paper]](https://arxiv.org/pdf/2501.07861)
+
+- (ACL 2024) **M-RAG: Reinforcing Large Language Model Performance through Retrieval-Augmented Generation with Multiple Partitions**
+
+- (ArXiv 2022) **WebGPT: Browser-assisted question-answering with human feedback**
+
+#### Multi-Agent
+
+- (ACL 2025) **Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research** [[Paper]](https://arxiv.org/pdf/2502.04644) [[Code]](https://github.com/theworldofagents/Agentic-Reasoning) ![GitHub Repo stars](https://img.shields.io/github/stars/theworldofagents/Agentic-Reasoning?style=social)
+- (ArXiv 2025) **Collab-RAG: Boosting Retrieval-Augmented Generation for Complex Question Answering via White-Box and Black-Box LLM Collaboration** [[Paper]](https://arxiv.org/pdf/2504.04915)
+- (ArXiv 2025) **M-RAG: Reinforcing Large Language Model Performance through Retrieval-Augmented Generation with Multiple Partitions** [[Paper]](https://arxiv.org/pdf/2405.16420)
+- (ArXiv 2025) **Knowledge-Aware Iterative Retrieval for Multi-Agent Systems** [[Paper]](https://arxiv.org/pdf/2503.13275)
+- (ArXiv 2025) **SLA Management in Reconfigurable Multi-Agent RAG: A Systems Approach to Question Answering** [[Paper]](https://arxiv.org/pdf/2503.10265?)
+- (ArXiv 2025) **SurgRAW: Multi-Agent Workflow with Chain of Thought Reasoning for Surgical Intelligence** [[Paper]](https://arxiv.org/pdf/2503.10265?)
+- (ArXiv 2025) **HM-RAG: Hierarchical Multi-Agent Multimodal Retrieval Augmented Generation** [[Paper]](https://arxiv.org/pdf/2504.12330) [[Code]](https://github.com/ocean-luna/HMRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/ocean-luna/HMRAG?style=social)
+- (ArXiv 2025) **RAG-KG-IL: A Multi-Agent Hybrid Framework for Reducing Hallucinations and Enhancing LLM Reasoning through RAG and Incremental Knowledge Graph Learning Integration** [[Paper]](https://arxiv.org/pdf/2503.13514?)
+- (ArXiv 2025) **MDocAgent: A Multi-Modal Multi-Agent Framework for Document Understanding** [[Paper]](https://arxiv.org/pdf/2503.13964?) [[Code]](https://github.com/aiming-lab/MDocAgent) ![GitHub Repo stars](https://img.shields.io/github/stars/aiming-lab/MDocAgent?style=social)
+- (ArXiv 2025) **MANTRA: Enhancing Automated Method-Level Refactoring with Contextual RAG and Multi-Agent LLM Collaboration** [[Paper]](https://arxiv.org/pdf/2503.14340)
+- (ArXiv 2025) **Talk to Right Specialists: Routing and Planning in Multi-agent System for Question Answering** [[Paper]](https://arxiv.org/pdf/2501.07813)
+- (ArXiv 2025) **Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2501.15228)
+- (ArXiv 2025) **Agentic Information Retrieval** [[Paper]](https://arxiv.org/abs/2410.09713)
+
+- (NeurIPS 2024) **Chain of Agents: Large Language Models Collaborating on Long-Context Tasks** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf) [[Code]](https://github.com/richardwhiteii/chain-of-agents) ![GitHub Repo stars](https://img.shields.io/github/stars/richardwhiteii/chain-of-agents?style=social)
+- (ArXiv 2024) **A Collaborative Multi-Agent Approach to Retrieval-Augmented Generation Across Diverse Data** [[Paper]](https://arxiv.org/pdf/2412.05838?)
+- (ArXiv 2024) **MindSearch: Mimicking Human Minds Elicits Deep AI Searcher** [[Paper]](https://arxiv.org/abs/2407.20183) [[Code]](https://github.com/InternLM/MindSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/MindSearch?style=social)
+
 ---
 
 *Contributions are welcome! Please feel free to submit pull requests or open issues to suggest new resources.*
