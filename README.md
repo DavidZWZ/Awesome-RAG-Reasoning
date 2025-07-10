@@ -7,7 +7,7 @@
   <img src="Assets/RAG_Reasoning.png" alt="RAG and Reasoning System Overview" width="600"/>
 </p>
 
-A curated collection of resources, papers, tools, and implementations that bridge the gap between **Retrieval-Augmented Generation (RAG)** and **Reasoning** in Large Language Models. This repository brings together traditionally separate research domains to enable more powerful AI systems.
+A curated collection of resources, papers, tools, and implementations that bridge the gap between **Retrieval-Augmented Generation (RAG)** and **Reasoning** in Large Language Models and Agents. This repository brings together traditionally separate research domains to enable more powerful Agentic AI systems.
 
 ## 📖 Introduction
 
@@ -157,6 +157,77 @@ This repository organizes resources across several key areas:
 
 - (EMNLP 2023) **UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation** [[Paper]](https://aclanthology.org/2023.emnlp-main.758.pdf) [[Code]](https://github.com/microsoft/LMOps) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/LMOps?style=social)
 - (ArXiv 2023) **Dr.ICL: Demonstration-Retrieved In-context Learning** [[Paper]](https://arxiv.org/pdf/2305.14128)
+
+## Synergized RAG and Reasoning
+
+### Reasoning Workflow
+
+#### Chain-based
+
+- (ICLR 2025) **Long-context llms meet rag: Overcoming challenges for long inputs in rag** [[Paper]](https://openreview.net/forum?id=oU3tpaR8fm)
+- (ArXiv 2025) **Chain-of-Retrieval Augmented Generation** [[Paper]](https://arxiv.org/abs/2501.14342) [[Code]](https://github.com/microsoft/LMOps/tree/main/corag) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/LMOps?style=social)
+- (ArXiv 2025) **CoT-RAG: Integrating Chain of Thought and Retrieval-Augmented Generation to Enhance Reasoning in Large Language Models** [[Paper]](https://arxiv.org/abs/2504.13534)
+- (ArXiv 2025) **Rankcot: Refining knowledge for retrieval-augmented generation through ranking chain-of-thoughts** [[Paper]](https://arxiv.org/abs/2502.17888) [[Code]](https://github.com/NEUIR/RankCoT) ![GitHub Repo stars](https://img.shields.io/github/stars/NEUIR/RankCoT?style=social)
+
+- (EMNLP 2024) **Retrieving, Rethinking and Revising: The Chain-of-Verification Can Improve Retrieval Augmented Generation** [[Paper]](https://arxiv.org/abs/2410.05801)
+- (EMNLP 2024) **Chain-of-note: Enhancing robustness in retrieval-augmented language models** [[Paper]](https://arxiv.org/abs/2311.09210)
+- (COLM 2024) **Raft: Adapting language model to domain specific rag** [[Paper]](https://openreview.net/pdf?id=rzQGHXNReU) [[Code]](https://github.com/ShishirPatil/gorilla) ![GitHub Repo stars](https://img.shields.io/github/stars/ShishirPatil/gorilla?style=social)
+- (ArXiv 2024) **Rat: Retrieval augmented thoughts elicit context-aware reasoning in long-horizon generation** [[Paper]](https://arxiv.org/pdf/2403.05313) [[Code]](https://github.com/CraftJarvis/RAT) ![GitHub Repo stars](https://img.shields.io/github/stars/CraftJarvis/RAT?style=social)
+- (ArXiv 2024) **TRACE the evidence: Constructing knowledge-grounded reasoning chains for retrieval-augmented generation** [[Paper]](https://arxiv.org/abs/2406.11460) [[Code]](https://github.com/jyfang6/trace) ![GitHub Repo stars](https://img.shields.io/github/stars/jyfang6/trace?style=social)
+
+- (ACL 2023) **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** [[Paper]](https://arxiv.org/pdf/2212.10509) [[Code]](https://github.com/stonybrooknlp/ircot) ![GitHub Repo stars](https://img.shields.io/github/stars/stonybrooknlp/ircot?style=social)
+
+#### Tree-based
+
+- (AAAI 2025) **RATT: A Thought Structure for Coherent and Correct LLM Reasoning** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34876) [[Code]](https://github.com/jinghanzhang1998/RATT) ![GitHub Repo stars](https://img.shields.io/github/stars/jinghanzhang1998/RATT?style=social)
+- (ArXiv 2025) **MCTS-RAG: Enhance Retrieval-Augmented Generation with Monte Carlo Tree Search** [[Paper]](https://arxiv.org/pdf/2503.20757?) [[Code]](https://github.com/yale-nlp/MCTS-RAG) ![GitHub Repo stars](https://img.shields.io/github/stars/yale-nlp/MCTS-RAG?style=social)
+- (ArXiv 2025) **Airrag: Activating intrinsic reasoning for retrieval augmented generation via tree-based search** [[Paper]](https://arxiv.org/abs/2501.10053)
+- (ArXiv 2025) **Tree-based RAG-Agent Recommendation System: A Case Study in Medical Test Data** [[Paper]](https://arxiv.org/abs/2501.02727)
+
+- (ArXiv 2024) **SeRTS: Self-Rewarding Tree Search for Biomedical Retrieval-Augmented Generation** [[Paper]](https://arxiv.org/abs/2406.11258)
+- (ArXiv 2024) **CORAG: A Cost-Constrained Retrieval Optimization System for Retrieval-Augmented Generation** [[Paper]](https://arxiv.org/abs/2411.00744)
+
+- (ACL 2023) **Tree of clarifications: Answering ambiguous questions with retrieval-augmented large language models** [[Paper]](https://aclanthology.org/2023.emnlp-main.63/) [[Code]](https://github.com/gankim/tree-of-clarifications) ![GitHub Repo stars](https://img.shields.io/github/stars/gankim/tree-of-clarifications?style=social)
+- (EMNLP 2023) **Grove: a retrieval-augmented complex story generation framework with a forest of evidence** [[Paper]](https://arxiv.org/abs/2310.05388)
+
+#### Graph-based
+
+##### Walk-on-Graph
+- (ICLR 2025) **Reasoning of Large Language Models over Knowledge Graphs with Super-Relations** [[Paper]](https://openreview.net/forum?id=rTCJ29pkuA) [[Code]](https://github.com/SongW-SW/REKNOS) ![GitHub Repo stars](https://img.shields.io/github/stars/SongW-SW/REKNOS?style=social)
+- (ICLR 2025) **Simple is Effective: The Roles of Graphs and LLMs in Knowledge-Graph-Based RAG** [[Paper]](https://arxiv.org/pdf/2410.20724) [[Code]](https://github.com/Graph-COM/SubgraphRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/Graph-COM/SubgraphRAG?style=social)
+- (ICLR 2025) **StructRAG: Boosting Knowledge Intensive Reasoning of LLMs via Inference-time Hybrid Information Structurization** [[Paper]](https://arxiv.org/pdf/2410.08815) [[Code]](https://github.com/icip-cas/StructRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/icip-cas/StructRAG?style=social)
+- (ArXiv 2025) **From RAG to Memory: Non-Parametric Continual Learning for Large Language Models** [[Paper]](https://arxiv.org/pdf/2502.14802) [[Code]](https://github.com/OSU-NLP-Group/HippoRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/HippoRAG?style=social)
+- (ArXiv 2025) **From Local to Global: A GraphRAG Approach to Query-Focused Summarization** [[Paper]](https://arxiv.org/pdf/2404.16130) [[Code]](https://github.com/ksachdeva/langchain-graphrag) ![GitHub Repo stars](https://img.shields.io/github/stars/ksachdeva/langchain-graphrag?style=social)
+
+- (NeurIPS 2024) **G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering** [[Paper]](https://arxiv.org/pdf/2402.07630) [[Code]](https://github.com/manthan2305/Efficient-G-Retriever) ![GitHub Repo stars](https://img.shields.io/github/stars/manthan2305/Efficient-G-Retriever?style=social)
+- (NeurIPS 2024) **HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models** [[Paper]](https://arxiv.org/pdf/2405.14831) [[Code]](https://github.com/OSU-NLP-Group/HippoRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/OSU-NLP-Group/HippoRAG?style=social)
+- (ArXiv 2024) **DALK: Dynamic Co-Augmentation of LLMs and KG to answer Alzheimer's Disease Questions with Scientific Literature** [[Paper]](https://arxiv.org/pdf/2405.04819) [[Code]](https://github.com/David-Li0406/DALK) ![GitHub Repo stars](https://img.shields.io/github/stars/David-Li0406/DALK?style=social)
+- (ArXiv 2024) **GNN-RAG: Graph Neural Retrieval for Large Language Model Reasoning** [[Paper]](https://arxiv.org/pdf/2405.20139) [[Code]](https://github.com/cmavro/GNN-RAG) ![GitHub Repo stars](https://img.shields.io/github/stars/cmavro/GNN-RAG?style=social)
+- (ArXiv 2024) **LightRAG: Simple and Fast Retrieval-Augmented Generation** [[Paper]](https://arxiv.org/pdf/2410.05779) [[Code]](https://github.com/HKUDS/LightRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/LightRAG?style=social)
+
+- (ArXiv 2023) **Retrieve-Rewrite-Answer: A KG-to-Text Enhanced LLMs Framework for Knowledge Graph Question Answering** [[Paper]](https://arxiv.org/abs/2309.11206) [[Code]](https://github.com/wuyike2000/Retrieve-Rewrite-Answer) ![GitHub Repo stars](https://img.shields.io/github/stars/wuyike2000/Retrieve-Rewrite-Answer?style=social)
+
+- (ICLR 2022) **GreaseLM: Graph REASoning Enhanced Language Models for Question Answering** [[Paper]](https://arxiv.org/pdf/2201.08860) [[Code]](https://github.com/snap-stanford/GreaseLM) ![GitHub Repo stars](https://img.shields.io/github/stars/snap-stanford/GreaseLM?style=social)
+- (ACL 2022) **Subgraph Retrieval Enhanced Model for Multi-hop KBQA** [[Paper]](https://arxiv.org/pdf/2202.13296) [[Code]](https://github.com/RUCKBReasoning/SubgraphRetrievalKBQA) ![GitHub Repo stars](https://img.shields.io/github/stars/RUCKBReasoning/SubgraphRetrievalKBQA?style=social)
+
+- (NAACL 2021) **QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering** [[Paper]](https://arxiv.org/pdf/2104.06378) [[Code]](https://github.com/michiyasunaga/qagnn) ![GitHub Repo stars](https://img.shields.io/github/stars/michiyasunaga/qagnn?style=social)
+
+- (ACL 2019) **PullNet: Open Domain Question Answering with Iterative Retrieval on Knowledge Bases and Text** [[Paper]](https://arxiv.org/pdf/1904.09537) [[Code]](https://github.com/BrambleXu/knowledge-graph-learning/issues/255)
+
+##### Think-on-Graph
+- (ICLR 2025) **Think-on-Graph 2.0: Deep and Faithful Large Language Model Reasoning with Knowledge-guided Retrieval Augmented Generation** [[Paper]](https://arxiv.org/pdf/2407.10805) [[Code]](https://github.com/IDEA-FinAI/ToG-2) ![GitHub Repo stars](https://img.shields.io/github/stars/IDEA-FinAI/ToG-2?style=social)
+
+- (ICLR 2024) **Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph** [[Paper]](https://arxiv.org/pdf/2307.07697) [[Code]](https://github.com/spcl/graph-of-thoughts) ![GitHub Repo stars](https://img.shields.io/github/stars/spcl/graph-of-thoughts?style=social)
+- (ICLR 2024) **Reasoning on Graphs: Faithful and Interpretable LLM Reasoning (RoG)** [[Paper]](https://arxiv.org/pdf/2310.01061)
+- (ACL 2024) **Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs** [[Paper]](https://arxiv.org/pdf/2404.07103) [[Code]](https://github.com/PeterGriffinJin/Graph-CoT) ![GitHub Repo stars](https://img.shields.io/github/stars/PeterGriffinJin/Graph-CoT?style=social)
+- (ACL 2024) **GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models** [[Paper]](https://arxiv.org/pdf/2406.14550)
+- (AAAI 2024) **Knowledge Graph Prompting for Multi-Document Question Answering** [[Paper]](https://arxiv.org/pdf/2308.11730) [[Code]](https://github.com/YuWVandy/KG-LLM-MDQA) ![GitHub Repo stars](https://img.shields.io/github/stars/YuWVandy/KG-LLM-MDQA?style=social)
+- (WWW 2025) **Kag: Boosting llms in professional domains via knowledge augmented generation** [[Paper]](https://arxiv.org/abs/2409.13731) [[Code]](https://github.com/OpenSPG/KAG) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenSPG/KAG?style=social)
+- (EMNLP 2022) **Empowering Language Models with Knowledge Graph Reasoning for Question Answering** [[Paper]](https://arxiv.org/pdf/2211.08380)
+- (CIS 2024) **KnowledgeNavigator: Leveraging Large Language Models for Enhanced Reasoning over Knowledge Graph** [[Paper]](https://arxiv.org/pdf/2312.15880) [[Code]](https://github.com/katzurik/Knowledge_Navigator) ![GitHub Repo stars](https://img.shields.io/github/stars/katzurik/Knowledge_Navigator?style=social)
+- (ArXiv 2024) **HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses** [[Paper]](https://arxiv.org/pdf/2312.15883) [[Code]](https://github.com/Artessay/HyKGE) ![GitHub Repo stars](https://img.shields.io/github/stars/Artessay/HyKGE?style=social)
+- (ArXiv 2024) **KG-RAG: Bridging the Gap Between Knowledge and Creativity​** [[Paper]](https://arxiv.org/pdf/2405.12035)
+- (ArXiv 2024) **Mitigating Hallucinations in Large Language Models via Self-Refinement-Enhanced Knowledge Retrieval** [[Paper]](https://arxiv.org/pdf/2405.06545)
 
 ---
 
