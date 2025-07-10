@@ -54,6 +54,38 @@ This repository organizes resources across several key areas:
 
 # 📚 Research Papers
 
+## Table of Contents
+
+### [Reasoning-Enhanced RAG](#reasoning-enhanced-rag)
+- [Retrieval Optimization](#retrieval-optimization)
+- [Integration Enhancement](#integration-enhancement) 
+- [Generation Enhancement](#generation-enhancement)
+
+### [RAG-Enhanced Reasoning](#rag-enhanced-reasoning)
+- [External Knowledge Retrieval](#external-knowledge-retrieval)
+  - [Knowledge Base](#knowledge-base)
+  - [Web Retrieval](#web-retrieval)
+  - [Tool Using](#tool-using)
+- [In-context Retrieval](#in-context-retrieval)
+  - [Prior Experience](#prior-experience)
+  - [Example or Training Data](#example-or-training-data)
+
+### [Synergized RAG and Reasoning](#synergized-rag-and-reasoning)
+- [Reasoning Workflow](#reasoning-workflow)
+  - [Chain-based](#chain-based)
+  - [Tree-based](#tree-based)
+  - [Graph-based](#graph-based)
+    - [Walk-on-Graph](#walk-on-graph)
+    - [Think-on-Graph](#think-on-graph)
+- [Agentic Orchestration](#agentic-orchestration)
+  - [Single-Agent](#single-agent)
+    - [Prompting](#prompting)
+    - [Supervised Fine-Tuning](#supervised-fine-tuning)
+    - [Reinforcement Learning](#reinforcement-learning)
+  - [Multi-Agent](#multi-agent)
+
+---
+
 ## Reasoning-Enhanced RAG
 ### Retrieval Optimization
 - (AAAI 2025) **MaFeRw: Query Rewriting with Multi-Aspect Feedbacks for Retrieval-Augmented Large Language Models** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34732) [[Code]](https://github.com/yjEugenia/MaFeRw) ![GitHub Repo stars](https://img.shields.io/github/stars/yjEugenia/MaFeRw?style=social)
@@ -87,8 +119,8 @@ This repository organizes resources across several key areas:
 - (EMNLP 2024) **TRACE the evidence: Constructing knowledge-grounded reasoning chains for retrieval-augmented generation** [[Paper]](https://arxiv.org/abs/2406.11460) [[Code]](https://github.com/jyfang6/trace) ![GitHub Repo stars](https://img.shields.io/github/stars/jyfang6/trace?style=social)
 
 ## RAG-Enhanced Reasoning
-
-### Knowledge Base
+### External Knowledge Retrieval
+#### Knowledge Base
 - (ICLR 2025) **KBLaM: Knowledge Base augmented Language Model** [[Paper]](https://arxiv.org/pdf/2410.10450) [[Code]](https://github.com/microsoft/KBLaM/) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/KBLaM?style=social)
 - (ArXiv 2025) **Assisting Mathematical Formalization with A Learning-based Premise Retriever** [[Paper]](https://arxiv.org/pdf/2501.13959) [[Code]](https://github.com/ruc-ai4math/Premise-Retrieval) ![GitHub Repo stars](https://img.shields.io/github/stars/ruc-ai4math/Premise-Retrieval?style=social)
 - (ArXiv 2025) **ReaRAG: Knowledge-guided Reasoning Enhances Factuality of Large Reasoning Models with Iterative Retrieval Augmented Generation** [[Paper]](https://arxiv.org/pdf/2503.21729) [[Code]](https://github.com/THU-KEG/ReaRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/THU-KEG/ReaRAG?style=social)
@@ -101,7 +133,7 @@ This repository organizes resources across several key areas:
 - (ArXiv 2024) **MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries** [[Paper]](https://arxiv.org/pdf/2401.15391) [[Code]](https://github.com/yixuantt/MultiHop-RAG/) ![GitHub Repo stars](https://img.shields.io/github/stars/yixuantt/MultiHop-RAG?style=social)
 - (MDPI 2024) **CRP-RAG: A Retrieval-Augmented Generation Framework for Supporting Complex Logical Reasoning and Knowledge Planning** [[Paper]](https://www.mdpi.com/2079-9292/14/1/47)
 
-### Web Retrieval
+#### Web Retrieval
 
 - (ICTIR 2025) **Distillation and Refinement of Reasoning in Small Language Models for Document Re-ranking** [[Paper]](https://arxiv.org/pdf/2504.03947) [[Code]](https://github.com/algoprog/InteRank) ![GitHub Repo stars](https://img.shields.io/github/stars/algoprog/InteRank?style=social)
 - (NAACL 2025) **Step-by-Step Fact Verification System for Medical Claims with Explainable Reasoning** [[Paper]](https://aclanthology.org/2025.naacl-short.68.pdf) [[Code]](https://github.com/jvladika/StepByStepFV) ![GitHub Repo stars](https://img.shields.io/github/stars/jvladika/StepByStepFV?style=social)
@@ -112,7 +144,7 @@ This repository organizes resources across several key areas:
 - (FEVER 2024) **Ragar, your falsehood radar: Rag-augmented reasoning for political fact-checking using multimodal large language models** [[Paper]](https://arxiv.org/pdf/2404.12065)
 - (LREC-COLING 2024) **PACAR: Automated Fact-Checking with Planning and Customized Action Reasoning using Large Language Models** [[Paper]](https://aclanthology.org/2024.lrec-main.1099.pdf)
 
-### Tool Using
+#### Tool Using
 
 - (COLING 2025) **Efficient Tool Use with Chain-of-Abstraction Reasoning** [[Paper]](https://aclanthology.org/2025.coling-main.185.pdf)
 - (NAACL 2025) **Meta-Reasoning Improves Tool Use in Large Language Models** [[Paper]](https://arxiv.org/pdf/2411.04535) [[Code]](https://github.com/lisaalaz/tecton?tab=readme-ov-file) ![GitHub Repo stars](https://img.shields.io/github/stars/lisaalaz/tecton?style=social)
@@ -131,9 +163,9 @@ This repository organizes resources across several key areas:
 - (NeurIPS 2023) **ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/8fd1a81c882cd45f64958da6284f4a3f-Paper-Conference.pdf) [[Code]](https://github.com/Ber666/ToolkenGPT) ![GitHub Repo stars](https://img.shields.io/github/stars/Ber666/ToolkenGPT?style=social)
 
 
-## In-context Retrieval
+### In-context Retrieval
 
-### Prior Experience
+#### Prior Experience
 
 - (ICLR 2025) **Not All Heads Matter: A Head-Level KV Cache Compression Method with Integrated Retrieval and Reasoning** [[Paper]](https://arxiv.org/pdf/2410.19258?) [[Code]](https://github.com/FYYFU/HeadKV/tree/main) ![GitHub Repo stars](https://img.shields.io/github/stars/FYYFU/HeadKV?style=social)
 - (ICLR 2025) **Human-like Episodic Memory for Infinite Context LLMs** [[Paper]](https://openreview.net/pdf?id=BI2int5SAC)
@@ -146,7 +178,7 @@ This repository organizes resources across several key areas:
 - (ArXiv 2024) **Large Language Models Orchestrating Structured Reasoning Achieve Kaggle Grandmaster Level** [[Paper]](https://arxiv.org/pdf/2411.03562)
 - (ArXiv 2024) **RAP: Retrieval-Augmented Planning with Contextual Memory for Multimodal LLM Agents** [[Paper]](https://arxiv.org/pdf/2402.03610)
 
-### Example or Training Data
+#### Example or Training Data
 
 - (ICLR 2025) **OpenRAG: Optimizing RAG End-to-End viaIn-ContextRetrievalLearning** [[Paper]](https://openreview.net/pdf?id=WX0Y0rBsqo)
 - (COLING 2025) **PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation** [[Paper]](https://aclanthology.org/2025.coling-main.534.pdf)
