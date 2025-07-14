@@ -16,14 +16,12 @@ A curated collection of resources, papers, tools, and implementations that bridg
 
 ## 📖 Introduction
 
-**Retrieval-Augmented Generation (RAG)** has emerged as a powerful paradigm that combines the strengths of large language models with external knowledge retrieval. By augmenting language models with relevant information from external sources, RAG systems can provide more accurate, up-to-date, and factual responses while maintaining the generative capabilities of modern LLMs.
-- **🔍 RAG Community**: Focused on knowledge retrieval, fact verification, and domain-specific applications
+**🔍 Retrieval-Augmented Generation (RAG)** has emerged as a powerful paradigm that combines the strengths of large language models with external knowledge retrieval. By augmenting language models with relevant information from external sources, RAG systems can provide more accurate, up-to-date, and factual responses while maintaining the generative capabilities of modern LLMs.
 - **Limitations**:
   - May retrieve irrelevant or inaccurate information
   - Limited by the quality and coverage of external knowledge bases
 
-**Reasoning** has recently gained significant popularity as a complementary approach to enhance LLM performance. Reasoning techniques focus on improving the model's ability to process information, perform logical analysis, and arrive at conclusions through structured thinking processes. These methods enable LLMs to tackle complex problems that require multi-step inference, causal understanding, and systematic problem-solving.
-- **🧠 Reasoning Community**: Focused on logical inference, step-by-step thinking, and problem decomposition
+**🧠 Reasoning** has recently gained significant popularity as a complementary approach to enhance LLM performance. Reasoning techniques focus on improving the model's ability to process information, perform logical analysis, and arrive at conclusions through structured thinking processes. These methods enable LLMs to tackle complex problems that require multi-step inference, causal understanding, and systematic problem-solving.
 - **Limitations**:
   - Often hallucinates or mis-grounds facts
   - Struggles with up-to-date or domain-specific information
