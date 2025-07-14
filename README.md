@@ -37,31 +37,20 @@ Although RAG and Reasoning address different aspects of the model's capabilities
 Large Language Models (LLMs) serve as the foundation for modern AI systems, but they face significant limitations in both knowledge access and reasoning capabilities. 
 While RAG excels at providing factual knowledge and reasoning excels at logical processing, real-world problems often require both capabilities simultaneously. Complex queries demand not just access to relevant information, but also the ability to reason through that information systematically.
 
-- **Factual + Logical**: RAG provides the factual evidences, reasoning provides the logic Analysis
-- **External + Internal**: RAG accesses external knowledge and information, reasoning conducts internal understanding and synthesizes conclusions
-
 **Real-World Impact**: This combination enables AI systems to tackle complex problems that require both knowledge retrieval and sophisticated reasoning, such as scientific research, legal analysis, medical diagnosis, and strategic planning.
 
 
 ### What This Repository Covers
 
-This repository organizes resources across several key areas:
+### 📚 Research Papers & Frameworks
+Latest academic publications and open-source implementations
 
-- **📚 Research Papers**: Latest academic publications on RAG and reasoning
-- **🔧 Tools & Frameworks**: Open-source implementations and libraries
-- **📊 Datasets**: Evaluation benchmarks and training data
-- **🎯 Applications**: Real-world use cases and implementations
-
-# 📚 Research Papers
-
-## Table of Contents
-
-### [Reasoning-Enhanced RAG](#reasoning-enhanced-rag)
+#### [Reasoning-Enhanced RAG](#reasoning-enhanced-rag)
 - [Retrieval Optimization](#retrieval-optimization)
 - [Integration Enhancement](#integration-enhancement) 
 - [Generation Enhancement](#generation-enhancement)
 
-### [RAG-Enhanced Reasoning](#rag-enhanced-reasoning)
+#### [RAG-Enhanced Reasoning](#rag-enhanced-reasoning)
 - [External Knowledge Retrieval](#external-knowledge-retrieval)
   - [Knowledge Base](#knowledge-base)
   - [Web Retrieval](#web-retrieval)
@@ -70,7 +59,7 @@ This repository organizes resources across several key areas:
   - [Prior Experience](#prior-experience)
   - [Example or Training Data](#example-or-training-data)
 
-### [Synergized RAG and Reasoning](#synergized-rag-and-reasoning)
+#### [Synergized RAG and Reasoning](#synergized-rag-and-reasoning)
 - [Reasoning Workflow](#reasoning-workflow)
   - [Chain-based](#chain-based)
   - [Tree-based](#tree-based)
@@ -83,6 +72,13 @@ This repository organizes resources across several key areas:
     - [Supervised Fine-Tuning](#supervised-fine-tuning)
     - [Reinforcement Learning](#reinforcement-learning)
   - [Multi-Agent](#multi-agent)
+
+---
+
+# 📊 Benchmarks & Datasets
+Evaluation benchmarks and training/Testing datasets
+
+*[Will update soon]*
 
 ---
 
