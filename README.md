@@ -33,6 +33,14 @@ Although RAG and Reasoning address different aspects of the model's capabilities
 
 **This repository serves as a comprehensive collection that bridges these traditionally separate domains**, providing resources for researchers and practitioners interested in combining the strengths of both approaches.
 
+<p align="center">
+  <img src="Assets/Framework.png" alt="RAG and Reasoning Framework" width="600"/>
+</p>
+
+<p align="center">
+  <img src="Assets/Taxonomy.png" alt="RAG and Reasoning Taxonomy" width="600"/>
+</p>
+
 ### Why RAG + Reasoning?
 Large Language Models (LLMs) serve as the foundation for modern AI systems, but they face significant limitations in both knowledge access and reasoning capabilities. 
 While RAG excels at providing factual knowledge and reasoning excels at logical processing, real-world problems often require both capabilities simultaneously. Complex queries demand not just access to relevant information, but also the ability to reason through that information systematically.
