@@ -12,31 +12,24 @@ A curated collection of resources, papers, tools, and implementations that bridg
 ## 📖 Introduction
 
 **Retrieval-Augmented Generation (RAG)** has emerged as a powerful paradigm that combines the strengths of large language models with external knowledge retrieval. By augmenting language models with relevant information from external sources, RAG systems can provide more accurate, up-to-date, and factual responses while maintaining the generative capabilities of modern LLMs.
-
-**Reasoning** has recently gained significant popularity as a complementary approach to enhance LLM performance. Reasoning techniques focus on improving the model's ability to process information, perform logical analysis, and arrive at conclusions through structured thinking processes. These methods enable LLMs to tackle complex problems that require multi-step inference, causal understanding, and systematic problem-solving.
-
-Although RAG and Reasoning address different aspects of the model's capabilities. **they have been developed largely independently**, with separate research communities, methodologies, and evaluation benchmarks:
-
-**🔍 RAG Community**: Focused on knowledge retrieval, document processing, and factual grounding
-- **Key Mechanism**: Query → Retrieve → Augment → Generate
-- **Use Cases**: Question answering, fact verification, domain-specific applications
+**🔍 RAG Community**: Focused on knowledge retrieval, fact verification, and domain-specific applications
 - **Limitations**:
   - May retrieve irrelevant or inaccurate information
   - Limited by the quality and coverage of external knowledge bases
 
+**Reasoning** has recently gained significant popularity as a complementary approach to enhance LLM performance. Reasoning techniques focus on improving the model's ability to process information, perform logical analysis, and arrive at conclusions through structured thinking processes. These methods enable LLMs to tackle complex problems that require multi-step inference, causal understanding, and systematic problem-solving.
 **🧠 Reasoning Community**: Focused on logical inference, step-by-step thinking, and problem decomposition
-- **Key Mechanism**: Problem → Decompose → Reason → Synthesize
-- **Use Cases**: Mathematical reasoning, logical puzzles, strategic planning, causal analysis
 - **Limitations**:
   - Often hallucinates or mis-grounds facts
   - Struggles with up-to-date or domain-specific information
+
+Although RAG and Reasoning address different aspects of the model's capabilities. **they have been developed largely independently**, with separate research communities, methodologies, and evaluation benchmarks:
 
 **This repository serves as a comprehensive collection that bridges these traditionally separate domains**, providing resources for researchers and practitioners interested in combining the strengths of both approaches.
 
 <p align="center">
   <img src="Assets/Taxonomy.png" alt="RAG and Reasoning Taxonomy" width="800"/>
 </p>
-
 
 ### Why RAG + Reasoning?
 Large Language Models (LLMs) serve as the foundation for modern AI systems, but they face significant limitations in both knowledge access and reasoning capabilities. 
@@ -50,7 +43,7 @@ While RAG excels at providing factual knowledge and reasoning excels at logical 
 
 *The **Reasoning-Enhanced RAG** methods and **RAG-Enhanced Reasoning** methods represent **one-way** enhancements. In contrast, the **Synergized RAG-Reasoning System** performs reasoning and retrieval **iteratively**, enabling mutual enhancements.*
 
-### What This Repository Covers
+## What This Repository Covers
 
 ### 📚 Research Papers & Frameworks
 Latest academic publications and open-source implementations
