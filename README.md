@@ -34,7 +34,7 @@ Although RAG and Reasoning address different aspects of the model's capabilities
 **This repository serves as a comprehensive collection that bridges these traditionally separate domains**, providing resources for researchers and practitioners interested in combining the strengths of both approaches.
 
 <p align="center">
-  <img src="Assets/Framework.png" alt="RAG and Reasoning Framework" width="600"/>
+  <img src="Assets/Framework.png" alt="RAG and Reasoning Framework" width="800"/>
 </p>
 
 *The **Reasoning-Enhanced RAG** methods and **RAG-Enhanced Reasoning** methods represent **one-way** enhancements. In contrast, the **Synergized RAG-Reasoning System** performs reasoning and retrieval **iteratively**, enabling mutual enhancements.*
@@ -47,7 +47,7 @@ While RAG excels at providing factual knowledge and reasoning excels at logical 
 **Real-World Impact**: This combination enables AI systems to tackle complex problems that require both knowledge retrieval and sophisticated reasoning, such as scientific research, legal analysis, medical diagnosis, and strategic planning.
 
 <p align="center">
-  <img src="Assets/Taxonomy.png" alt="RAG and Reasoning Taxonomy" width="600"/>
+  <img src="Assets/Taxonomy.png" alt="RAG and Reasoning Taxonomy" width="800"/>
 </p>
 
 ### What This Repository Covers
