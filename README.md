@@ -1,7 +1,7 @@
 # Awesome-RAG-Reasoning
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![arXiv](https://img.shields.io/badge/arXiv-RAG-Reasoning-b31b1b.svg)]()
+[![arXiv](https://img.shields.io/badge/arXiv-RAG_Reasoning-b31b1b.svg)]()
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
 [![Contribution Welcome](https://img.shields.io/badge/Contributions-welcome-blue)]()
 [![Code](https://img.shields.io/badge/Code-GithubRepo-c8a4bf.svg)](https://github.com/DavidZWZ/Awesome-RAG-Reseasoning) 
