@@ -37,9 +37,8 @@ Although RAG and Reasoning address different aspects of the model's capabilities
   <img src="Assets/Framework.png" alt="RAG and Reasoning Framework" width="600"/>
 </p>
 
-<p align="center">
-  <img src="Assets/Taxonomy.png" alt="RAG and Reasoning Taxonomy" width="600"/>
-</p>
+*The **Reasoning-Enhanced RAG** methods and **RAG-Enhanced Reasoning** methods represent **one-way** enhancements. In contrast, the **Synergized RAG-Reasoning System** performs reasoning and retrieval **iteratively**, enabling mutual enhancements.*
+
 
 ### Why RAG + Reasoning?
 Large Language Models (LLMs) serve as the foundation for modern AI systems, but they face significant limitations in both knowledge access and reasoning capabilities. 
@@ -47,6 +46,9 @@ While RAG excels at providing factual knowledge and reasoning excels at logical 
 
 **Real-World Impact**: This combination enables AI systems to tackle complex problems that require both knowledge retrieval and sophisticated reasoning, such as scientific research, legal analysis, medical diagnosis, and strategic planning.
 
+<p align="center">
+  <img src="Assets/Taxonomy.png" alt="RAG and Reasoning Taxonomy" width="600"/>
+</p>
 
 ### What This Repository Covers
 
