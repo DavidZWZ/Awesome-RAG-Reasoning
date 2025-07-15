@@ -51,33 +51,33 @@ While RAG excels at providing factual knowledge and reasoning excels at logical 
 ### 📚 Research Papers & Frameworks
 Latest academic publications and open-source implementations
 
-#### [Reasoning-Enhanced RAG](#reasoning-enhanced-rag)
-- [Retrieval Optimization](#retrieval-optimization)
-- [Integration Enhancement](#integration-enhancement) 
-- [Generation Enhancement](#generation-enhancement)
+- [Reasoning-Enhanced RAG](#reasoning-enhanced-rag)
+  - [Retrieval Optimization](#retrieval-optimization)
+  - [Integration Enhancement](#integration-enhancement) 
+  - [Generation Enhancement](#generation-enhancement)
 
-#### [RAG-Enhanced Reasoning](#rag-enhanced-reasoning)
-- [External Knowledge Retrieval](#external-knowledge-retrieval)
-  - [Knowledge Base](#knowledge-base)
-  - [Web Retrieval](#web-retrieval)
-  - [Tool Using](#tool-using)
-- [In-context Retrieval](#in-context-retrieval)
-  - [Prior Experience](#prior-experience)
-  - [Example or Training Data](#example-or-training-data)
+- [RAG-Enhanced Reasoning](#rag-enhanced-reasoning)
+  - [External Knowledge Retrieval](#external-knowledge-retrieval)
+    - [Knowledge Base](#knowledge-base)
+    - [Web Retrieval](#web-retrieval)
+    - [Tool Using](#tool-using)
+  - [In-context Retrieval](#in-context-retrieval)
+    - [Prior Experience](#prior-experience)
+    - [Example or Training Data](#example-or-training-data)
 
-#### [Synergized RAG and Reasoning](#synergized-rag-and-reasoning)
-- [Reasoning Workflow](#reasoning-workflow)
-  - [Chain-based](#chain-based)
-  - [Tree-based](#tree-based)
-  - [Graph-based](#graph-based)
-    - [Walk-on-Graph](#walk-on-graph)
-    - [Think-on-Graph](#think-on-graph)
-- [Agentic Orchestration](#agentic-orchestration)
-  - [Single-Agent](#single-agent)
-    - [Prompting](#prompting)
-    - [Supervised Fine-Tuning](#supervised-fine-tuning)
-    - [Reinforcement Learning](#reinforcement-learning)
-  - [Multi-Agent](#multi-agent)
+- [Synergized RAG and Reasoning](#synergized-rag-and-reasoning)
+  - [Reasoning Workflow](#reasoning-workflow)
+    - [Chain-based](#chain-based)
+    - [Tree-based](#tree-based)
+    - [Graph-based](#graph-based)
+      - [Walk-on-Graph](#walk-on-graph)
+      - [Think-on-Graph](#think-on-graph)
+  - [Agentic Orchestration](#agentic-orchestration)
+    - [Single-Agent](#single-agent)
+      - [Prompting](#prompting)
+      - [Supervised Fine-Tuning](#supervised-fine-tuning)
+      - [Reinforcement Learning](#reinforcement-learning)
+    - [Multi-Agent](#multi-agent)
 
 ---
 
@@ -305,15 +305,12 @@ Evaluation benchmarks and training/Testing datasets
 - (ArXiv 2025) **ZeroSearch: Incentivize the Search Capability of LLMs without Searching** [[Paper]](https://arxiv.org/pdf/2505.04588) [[Code]](https://github.com/Alibaba-NLP/ZeroSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-NLP/ZeroSearch?style=social)
 - (ArXiv 2025) **ReARTeR: Retrieval-Augmented Reasoning with Trustworthy Process Rewarding** [[Paper]](https://arxiv.org/pdf/2501.07861)
 
-- (ACL 2024) **M-RAG: Reinforcing Large Language Model Performance through Retrieval-Augmented Generation with Multiple Partitions**
-
 - (ArXiv 2022) **WebGPT: Browser-assisted question-answering with human feedback** [[Paper]](https://arxiv.org/pdf/2112.09332)
 
 #### Multi-Agent
 
 - (ACL 2025) **Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research** [[Paper]](https://arxiv.org/pdf/2502.04644) [[Code]](https://github.com/theworldofagents/Agentic-Reasoning) ![GitHub Repo stars](https://img.shields.io/github/stars/theworldofagents/Agentic-Reasoning?style=social)
 - (ArXiv 2025) **Collab-RAG: Boosting Retrieval-Augmented Generation for Complex Question Answering via White-Box and Black-Box LLM Collaboration** [[Paper]](https://arxiv.org/pdf/2504.04915)
-- (ArXiv 2025) **M-RAG: Reinforcing Large Language Model Performance through Retrieval-Augmented Generation with Multiple Partitions** [[Paper]](https://arxiv.org/pdf/2405.16420)
 - (ArXiv 2025) **Knowledge-Aware Iterative Retrieval for Multi-Agent Systems** [[Paper]](https://arxiv.org/pdf/2503.13275)
 - (ArXiv 2025) **SLA Management in Reconfigurable Multi-Agent RAG: A Systems Approach to Question Answering** [[Paper]](https://arxiv.org/pdf/2503.10265?)
 - (ArXiv 2025) **SurgRAW: Multi-Agent Workflow with Chain of Thought Reasoning for Surgical Intelligence** [[Paper]](https://arxiv.org/pdf/2503.10265?)
@@ -325,6 +322,7 @@ Evaluation benchmarks and training/Testing datasets
 - (ArXiv 2025) **Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2501.15228)
 - (ArXiv 2025) **Agentic Information Retrieval** [[Paper]](https://arxiv.org/abs/2410.09713)
 
+- (ACL 2024) **M-RAG: Reinforcing Large Language Model Performance through Retrieval-Augmented Generation with Multiple Partitions** [[Paper]](https://arxiv.org/pdf/2405.16420)
 - (NeurIPS 2024) **Chain of Agents: Large Language Models Collaborating on Long-Context Tasks** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b3fb172490c33ce8-Paper-Conference.pdf) [[Code]](https://github.com/richardwhiteii/chain-of-agents) ![GitHub Repo stars](https://img.shields.io/github/stars/richardwhiteii/chain-of-agents?style=social)
 - (ArXiv 2024) **A Collaborative Multi-Agent Approach to Retrieval-Augmented Generation Across Diverse Data** [[Paper]](https://arxiv.org/pdf/2412.05838?)
 - (ArXiv 2024) **MindSearch: Mimicking Human Minds Elicits Deep AI Searcher** [[Paper]](https://arxiv.org/abs/2407.20183) [[Code]](https://github.com/InternLM/MindSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/MindSearch?style=social)
