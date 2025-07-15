@@ -299,6 +299,7 @@ Evaluation benchmarks and training/Testing datasets
 
 - (ArXiv 2025) **DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments** [[Paper]](https://arxiv.org/pdf/2504.03160?) [[Code]](https://github.com/GAIR-NLP/DeepResearcher) ![GitHub Repo stars](https://img.shields.io/github/stars/GAIR-NLP/DeepResearcher?style=social)
 - (ArXiv 2025) **Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2503.09516) [[Code]](https://github.com/PeterGriffinJin/Search-R1) ![GitHub Repo stars](https://img.shields.io/github/stars/PeterGriffinJin/Search-R1?style=social)
+- (ArXiv 2025) **RAG-RL: Advancing Retrieval-Augmented Generation via RL and Curriculum Learning** [[Paper]](https://arxiv.org/pdf/2503.12759?)
 - (ArXiv 2025) **R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2503.05592) [[Code]](https://github.com/RUCAIBox/R1-Searcher) ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/R1-Searcher?style=social)
 - (ArXiv 2025) **ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2503.19470) [[Code]](https://github.com/Agent-RL/ReSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/Agent-RL/ReSearch?style=social)
 - (ArXiv 2025) **ZeroSearch: Incentivize the Search Capability of LLMs without Searching** [[Paper]](https://arxiv.org/pdf/2505.04588) [[Code]](https://github.com/Alibaba-NLP/ZeroSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-NLP/ZeroSearch?style=social)
@@ -306,7 +307,7 @@ Evaluation benchmarks and training/Testing datasets
 
 - (ACL 2024) **M-RAG: Reinforcing Large Language Model Performance through Retrieval-Augmented Generation with Multiple Partitions**
 
-- (ArXiv 2022) **WebGPT: Browser-assisted question-answering with human feedback**
+- (ArXiv 2022) **WebGPT: Browser-assisted question-answering with human feedback** [[Paper]](https://arxiv.org/pdf/2112.09332)
 
 #### Multi-Agent
 
@@ -324,7 +325,7 @@ Evaluation benchmarks and training/Testing datasets
 - (ArXiv 2025) **Improving Retrieval-Augmented Generation through Multi-Agent Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2501.15228)
 - (ArXiv 2025) **Agentic Information Retrieval** [[Paper]](https://arxiv.org/abs/2410.09713)
 
-- (NeurIPS 2024) **Chain of Agents: Large Language Models Collaborating on Long-Context Tasks** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b39ee6be113d7750-Paper-Conference.pdf) [[Code]](https://github.com/richardwhiteii/chain-of-agents) ![GitHub Repo stars](https://img.shields.io/github/stars/richardwhiteii/chain-of-agents?style=social)
+- (NeurIPS 2024) **Chain of Agents: Large Language Models Collaborating on Long-Context Tasks** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee71a4b14ec26710b3fb172490c33ce8-Paper-Conference.pdf) [[Code]](https://github.com/richardwhiteii/chain-of-agents) ![GitHub Repo stars](https://img.shields.io/github/stars/richardwhiteii/chain-of-agents?style=social)
 - (ArXiv 2024) **A Collaborative Multi-Agent Approach to Retrieval-Augmented Generation Across Diverse Data** [[Paper]](https://arxiv.org/pdf/2412.05838?)
 - (ArXiv 2024) **MindSearch: Mimicking Human Minds Elicits Deep AI Searcher** [[Paper]](https://arxiv.org/abs/2407.20183) [[Code]](https://github.com/InternLM/MindSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/MindSearch?style=social)
 
