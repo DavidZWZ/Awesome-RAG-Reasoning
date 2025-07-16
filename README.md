@@ -46,44 +46,12 @@ While RAG excels at providing factual knowledge and reasoning excels at logical 
 
 *The **Reasoning-Enhanced RAG** methods and **RAG-Enhanced Reasoning** methods represent **one-way** enhancements. In contrast, the **Synergized RAG-Reasoning System** performs reasoning and retrieval **iteratively**, enabling mutual enhancements.*
 
-## What This Repository Covers
-
-### 📚 Research Papers & Frameworks
-Latest academic publications and open-source implementations that advance the integration of RAG and Reasoning. This section highlights both methodology innovations and practical systems, providing resources for researchers and practitioners to explore, implement, and motivate new methods in the field.
-
-- [Reasoning-Enhanced RAG](#reasoning-enhanced-rag)
-  - [Retrieval Optimization](#retrieval-optimization)
-  - [Integration Enhancement](#integration-enhancement) 
-  - [Generation Enhancement](#generation-enhancement)
-
-- [RAG-Enhanced Reasoning](#rag-enhanced-reasoning)
-  - [External Knowledge Retrieval](#external-knowledge-retrieval)
-    - [Knowledge Base](#knowledge-base)
-    - [Web Retrieval](#web-retrieval)
-    - [Tool Using](#tool-using)
-  - [In-context Retrieval](#in-context-retrieval)
-    - [Prior Experience](#prior-experience)
-    - [Example or Training Data](#example-or-training-data)
-
-- [Synergized RAG and Reasoning](#synergized-rag-and-reasoning)
-  - [Reasoning Workflow](#reasoning-workflow)
-    - [Chain-based](#chain-based)
-    - [Tree-based](#tree-based)
-    - [Graph-based](#graph-based)
-      - [Walk-on-Graph](#walk-on-graph)
-      - [Think-on-Graph](#think-on-graph)
-  - [Agentic Orchestration](#agentic-orchestration)
-    - [Single-Agent](#single-agent)
-      - [Prompting](#prompting)
-      - [Supervised Fine-Tuning](#supervised-fine-tuning)
-      - [Reinforcement Learning](#reinforcement-learning)
-    - [Multi-Agent](#multi-agent)
-
 ---
+## What This Repository Covers
 
 Below you will find a curated selection of research papers, open-source implementations, and benchmarking datasets that drive progress in RAG and Reasoning.
 
-### 📚 Research Papers & Frameworks
+### 📚 [Research Papers & Frameworks](#research-papers-and-frameworks)
 Latest academic publications and open-source implementations that advance the integration of RAG and Reasoning. 
 
 - [Reasoning-Enhanced RAG](#reasoning-enhanced-rag)
@@ -116,7 +84,7 @@ Latest academic publications and open-source implementations that advance the in
 
 ---
 
-### 📊 Benchmarks & Datasets
+### 📊 [Benchmarks & Datasets](#benchmarks-and-datasets)
 
 The table linked below covers a diverse range of tasks. Each benchmark is annotated with its domain, knowledge type, reasoning capability, and dataset size. 
 
@@ -134,7 +102,8 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 
 
 ---
-This section is organized according to the taxonomy in our research paper, providing resources for researchers and practitioners to explore, implement, and motivate new methods in the field.
+<a name="research-papers-and-frameworks"></a>
+📚 **Research Papers & Frameworks**: This section is organized according to the taxonomy in our research paper, providing resources for researchers and practitioners to explore, implement, and motivate new methods in the field.
 
 ## Reasoning-Enhanced RAG
 ### Retrieval Optimization
@@ -377,7 +346,8 @@ This section is organized according to the taxonomy in our research paper, provi
 - (ArXiv 2024) **MindSearch: Mimicking Human Minds Elicits Deep AI Searcher** [[Paper]](https://arxiv.org/abs/2407.20183) [[Code]](https://github.com/InternLM/MindSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/MindSearch?style=social)
 
 ---
-Benchmarks and Datasets: These resources enable standardized evaluation and comparison of RAG and Reasoning methods across various real-world scenarios, supporting research progress and practical deployment.
+<a name="benchmarks-and-datasets"></a>
+📊 **Benchmarks and Datasets**: These resources enable standardized evaluation and comparison of RAG and Reasoning methods across various real-world scenarios, supporting research progress and practical deployment.
 
 | Title | Venue & Code | Benchmark Task | Domain | Knowledge Type | Reasoning Capability | Size |
 | --- | :---: | --- | --- | --- | --- | --- |
