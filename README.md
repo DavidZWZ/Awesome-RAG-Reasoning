@@ -81,9 +81,44 @@ Latest academic publications and open-source implementations that advance the in
 
 ---
 
+Below you will find a curated selection of research papers, open-source implementations, and benchmarking datasets that drive progress in RAG and Reasoning.
+
+### 📚 Research Papers & Frameworks
+Latest academic publications and open-source implementations that advance the integration of RAG and Reasoning. 
+
+- [Reasoning-Enhanced RAG](#reasoning-enhanced-rag)
+  - [Retrieval Optimization](#retrieval-optimization)
+  - [Integration Enhancement](#integration-enhancement) 
+  - [Generation Enhancement](#generation-enhancement)
+
+- [RAG-Enhanced Reasoning](#rag-enhanced-reasoning)
+  - [External Knowledge Retrieval](#external-knowledge-retrieval)
+    - [Knowledge Base](#knowledge-base)
+    - [Web Retrieval](#web-retrieval)
+    - [Tool Using](#tool-using)
+  - [In-context Retrieval](#in-context-retrieval)
+    - [Prior Experience](#prior-experience)
+    - [Example or Training Data](#example-or-training-data)
+
+- [Synergized RAG and Reasoning](#synergized-rag-and-reasoning)
+  - [Reasoning Workflow](#reasoning-workflow)
+    - [Chain-based](#chain-based)
+    - [Tree-based](#tree-based)
+    - [Graph-based](#graph-based)
+      - [Walk-on-Graph](#walk-on-graph)
+      - [Think-on-Graph](#think-on-graph)
+  - [Agentic Orchestration](#agentic-orchestration)
+    - [Single-Agent](#single-agent)
+      - [Prompting](#prompting)
+      - [Supervised Fine-Tuning](#supervised-fine-tuning)
+      - [Reinforcement Learning](#reinforcement-learning)
+    - [Multi-Agent](#multi-agent)
+
+---
+
 ### 📊 Benchmarks & Datasets
 
-The table linked below covers a diverse range of tasks. Each benchmark is annotated with its domain, knowledge type, reasoning capability, and dataset size. These resources enable standardized evaluation and comparison of RAG and Reasoning methods across various real-world scenarios, supporting research progress and practical deployment.
+The table linked below covers a diverse range of tasks. Each benchmark is annotated with its domain, knowledge type, reasoning capability, and dataset size. 
 
 - [Single-hop QA](#single-hop-qa)
 - [Multi-hop QA](#multi-hop-qa)
@@ -99,6 +134,7 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 
 
 ---
+This section is organized according to the taxonomy in our research paper, providing resources for researchers and practitioners to explore, implement, and motivate new methods in the field.
 
 ## Reasoning-Enhanced RAG
 ### Retrieval Optimization
@@ -341,7 +377,7 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 - (ArXiv 2024) **MindSearch: Mimicking Human Minds Elicits Deep AI Searcher** [[Paper]](https://arxiv.org/abs/2407.20183) [[Code]](https://github.com/InternLM/MindSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/MindSearch?style=social)
 
 ---
-
+Benchmarks and Datasets: These resources enable standardized evaluation and comparison of RAG and Reasoning methods across various real-world scenarios, supporting research progress and practical deployment.
 
 | Title | Venue & Code | Benchmark Task | Domain | Knowledge Type | Reasoning Capability | Size |
 | --- | :---: | --- | --- | --- | --- | --- |
