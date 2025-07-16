@@ -103,7 +103,7 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 
 ---
 <a name="research-papers-and-frameworks"></a>
-📚 **Research Papers & Frameworks**: This section is organized according to the taxonomy in our research paper, providing resources for researchers and practitioners to explore, implement, and motivate new methods in the field.
+📚 **Research Papers and Frameworks**: This section is organized according to the taxonomy in our research paper, providing resources for researchers and practitioners to explore, implement, and motivate new methods in the field.
 
 ## Reasoning-Enhanced RAG
 ### Retrieval Optimization
