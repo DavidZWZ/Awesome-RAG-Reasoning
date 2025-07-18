@@ -133,7 +133,7 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 ### Generation Enhancement
 - (AAAI 2025) **Improving Retrieval Augmented Language Model with Self-Reasoning** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34743)
 - (ArXiv 2025) **RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models** [[Paper]](https://arxiv.org/abs/2503.23513)
-- (ArXiv 2025) **AlignRAG: An Adaptable Framework for Resolving Misalignments in Retrieval-Aware Reasoning of RAG** [[Paper]](https://www.arxiv.org/abs/2504.14858v1) [[Code]](https://github.com/QQW-ing/RAG-ReasonAlignment) ![GitHub Repo stars](https://img.shields.io/github/stars/QQW-ing/RAG-ReasonAlignment?style=social)
+- (ArXiv 2025) **AlignRAG: Leveraging Critique Learning for Evidence-Sensitive Retrieval-Augmented Reasoning** [[Paper]](https://arxiv.org/pdf/2504.14858v3) [[Code]](https://github.com/QQW-ing/RAG-ReasonAlignment) ![GitHub Repo stars](https://img.shields.io/github/stars/QQW-ing/RAG-ReasonAlignment?style=social)
 
 - (EMNLP 2024) **Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large Language Models** [[Paper]](https://aclanthology.org/2024.findings-emnlp.831/) [[Code]](https://github.com/ShayekhBinIslam/openrag) ![GitHub Repo stars](https://img.shields.io/github/stars/ShayekhBinIslam/openrag?style=social)
 - (EMNLP 2024) **TRACE the evidence: Constructing knowledge-grounded reasoning chains for retrieval-augmented generation** [[Paper]](https://arxiv.org/abs/2406.11460) [[Code]](https://github.com/jyfang6/trace) ![GitHub Repo stars](https://img.shields.io/github/stars/jyfang6/trace?style=social)
