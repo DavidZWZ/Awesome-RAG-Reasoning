@@ -14,9 +14,9 @@
 
 A curated collection of resources, papers, tools, and implementations that bridge the gap between **Retrieval-Augmented Generation (RAG)** and **Reasoning** in Large Language Models and Agents. This repository brings together traditionally separate research domains to enable more powerful Agentic AI systems.
 
-**📖 Related Survey**: This repository is based on the taxonomy and framework presented in [**"Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs"**](https://arxiv.org/abs/2507.09477). The paper was featured 🏆 in [Hugging Face Daily Papers](https://huggingface.co/papers/date/2025-07-17) on July 17, 2025. 
+**📖 Related Survey**: This repository is based on the taxonomy and framework presented in [**"Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs"**](https://arxiv.org/abs/2507.09477), featured 🏆 in [Hugging Face Daily Papers](https://huggingface.co/papers/date/2025-07-17). 
 
-**🔍 Dive Deeper**: For researchers interested in the latest developments in **Agentic Deep Research**, including cutting-edge 🔥🔥🔥 papers and industry-leading deep research products, we recommend exploring our comprehensive collection at [**Awesome-Deep-Research**](https://github.com/DavidZWZ/Awesome-Deep-Research).
+**🔍 Dive Deeper**: For researchers interested in the latest developments in **Agentic Deep Research**, including cutting-edge papers and industry-leading deep research products, we recommend exploring our comprehensive collection at [**Awesome-Deep-Research**](https://github.com/DavidZWZ/Awesome-Deep-Research) 🔥🔥🔥.
 
 If you find this repository useful, please cite our papers:
 
