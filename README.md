@@ -14,9 +14,27 @@
 
 A curated collection of resources, papers, tools, and implementations that bridge the gap between **Retrieval-Augmented Generation (RAG)** and **Reasoning** in Large Language Models and Agents. This repository brings together traditionally separate research domains to enable more powerful Agentic AI systems.
 
-**📖 Related Survey**: This repository is based on the taxonomy and framework presented in [**"Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs"**](https://arxiv.org/abs/2507.09477) (arXiv:2507.09477). The paper was featured 🏆 in [Hugging Face Daily Papers](https://huggingface.co/papers/date/2025-07-17) on July 17, 2025. 
+**📖 Related Survey**: This repository is based on the taxonomy and framework presented in [**"Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs"**](https://arxiv.org/abs/2507.09477). The paper was featured 🏆 in [Hugging Face Daily Papers](https://huggingface.co/papers/date/2025-07-17) on July 17, 2025. 
 
-**🔍 Dive Deeper**: For researchers interested in the latest developments in **Agentic Deep Research**, including search-enhanced reasoning models, web agents, and autonomous research frameworks, we recommend exploring our comprehensive collection at [**Awesome-Deep-Research**](https://github.com/DavidZWZ/Awesome-Deep-Research), covering both cutting-edge hot papers and industry-leading deep research products.
+**🔍 Dive Deeper**: For researchers interested in the latest developments in **Agentic Deep Research**, including cutting-edge 🔥🔥🔥 papers and industry-leading deep research products, we recommend exploring our comprehensive collection at [**Awesome-Deep-Research**](https://github.com/DavidZWZ/Awesome-Deep-Research).
+
+If you find this repository useful, please cite our papers:
+
+```bibtex
+@article{li2025towards,
+  title={Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs},
+  author={Li, Yangning and Zhang, Weizhi and Yang, Yuyao and Huang, Wei-Chieh and Wu, Yaozu and Luo, Junyu and Bei, Yuanchen and Zou, Henry Peng and Luo, Xiao and Zhao, Yusheng and others},
+  journal={arXiv preprint arXiv:2507.09477},
+  year={2025}
+}
+
+@article{zhang2025web,
+  title={From Web Search towards Agentic Deep Research: Incentivizing Search with Reasoning Agents},
+  author={Zhang, Weizhi and Li, Yangning and Bei, Yuanchen and Luo, Junyu and Wan, Guancheng and Yang, Liangwei and Xie, Chenxuan and Yang, Yuyao and Huang, Wei-Chieh and Miao, Chunyu and others},
+  journal={arXiv preprint arXiv:2506.18959},
+  year={2025}
+}
+```
 
 ## 📖 Introduction
 
@@ -104,6 +122,9 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 - [Fact Checking](#fact-checking)
 - [Text Summarization](#text-summarization)
 
+### 🤝 [Contributing](#contributing)
+
+Guidelines for contributing to this repository and adding citation information.
 
 ---
 <a name="research-papers-and-frameworks"></a>
@@ -141,6 +162,8 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 
 - (EMNLP 2024) **Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large Language Models** [[Paper]](https://aclanthology.org/2024.findings-emnlp.831/) [[Code]](https://github.com/ShayekhBinIslam/openrag) ![GitHub Repo stars](https://img.shields.io/github/stars/ShayekhBinIslam/openrag?style=social)
 - (EMNLP 2024) **TRACE the evidence: Constructing knowledge-grounded reasoning chains for retrieval-augmented generation** [[Paper]](https://arxiv.org/abs/2406.11460) [[Code]](https://github.com/jyfang6/trace) ![GitHub Repo stars](https://img.shields.io/github/stars/jyfang6/trace?style=social)
+
+**[⬆️ Back to Table of Contents](#what-this-repository-covers)**
 
 ## RAG-Enhanced Reasoning
 ### External Knowledge Retrieval
@@ -213,6 +236,8 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 
 - (EMNLP 2023) **UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation** [[Paper]](https://aclanthology.org/2023.emnlp-main.758.pdf) [[Code]](https://github.com/microsoft/LMOps) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/LMOps?style=social)
 - (ArXiv 2023) **Dr.ICL: Demonstration-Retrieved In-context Learning** [[Paper]](https://arxiv.org/pdf/2305.14128)
+
+**[⬆️ Back to Table of Contents](#what-this-repository-covers)**
 
 ## Synergized RAG and Reasoning
 
@@ -349,6 +374,8 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 - (ArXiv 2024) **A Collaborative Multi-Agent Approach to Retrieval-Augmented Generation Across Diverse Data** [[Paper]](https://arxiv.org/pdf/2412.05838?)
 - (ArXiv 2024) **MindSearch: Mimicking Human Minds Elicits Deep AI Searcher** [[Paper]](https://arxiv.org/abs/2407.20183) [[Code]](https://github.com/InternLM/MindSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/MindSearch?style=social)
 
+**[⬆️ Back to Table of Contents](#what-this-repository-covers)**
+
 ---
 <a name="benchmarks-and-datasets"></a>
 📊 **Benchmarks and Datasets**: These resources enable standardized evaluation and comparison of RAG and Reasoning methods across various real-world scenarios, supporting research progress and practical deployment.
@@ -404,8 +431,11 @@ The table linked below covers a diverse range of tasks. Each benchmark is annota
 <a name="text-summarization"></a>
 | [XSum](https://aclanthology.org/D18-1206.pdf) | [EMNLP'18](https://github.com/EdinburghNLP/XSum) [![GitHub stars](https://img.shields.io/github/stars/EdinburghNLP/XSum?style=social)](https://github.com/EdinburghNLP/XSum) | Text Summarization | Narrative | Logical, Commonsense | Abductive | 226,711 |
 
+**[⬆️ Back to Table of Contents](#what-this-repository-covers)**
+
 ---
 *Contributions are welcome! Please feel free to submit pull requests or open issues to suggest new resources.*
+<a name="contributing"></a>
 
 ## 🤝 Contributing
 
@@ -425,3 +455,4 @@ We welcome contributions to expand this collection! To add your work, please:
 3. **Quality**: Ensure your work is relevant to RAG and Reasoning integration.
 
 Your contributions help build a comprehensive resource for the research community!
+
