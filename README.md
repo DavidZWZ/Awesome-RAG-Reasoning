@@ -260,6 +260,7 @@ Guidelines for contributing to this repository and adding citation information.
 
 #### Tree-based
 
+- (ACL 2025) **ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search** [[Paper]](https://arxiv.org/abs/2504.10893) [[Code]](https://github.com/OpenCausaLab/ARise) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenCausaLab/ARise?style=social)
 - (AAAI 2025) **RATT: A Thought Structure for Coherent and Correct LLM Reasoning** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34876) [[Code]](https://github.com/jinghanzhang1998/RATT) ![GitHub Repo stars](https://img.shields.io/github/stars/jinghanzhang1998/RATT?style=social)
 - (ArXiv 2025) **MCTS-RAG: Enhance Retrieval-Augmented Generation with Monte Carlo Tree Search** [[Paper]](https://arxiv.org/pdf/2503.20757?) [[Code]](https://github.com/yale-nlp/MCTS-RAG) ![GitHub Repo stars](https://img.shields.io/github/stars/yale-nlp/MCTS-RAG?style=social)
 - (ArXiv 2025) **Airrag: Activating intrinsic reasoning for retrieval augmented generation via tree-based search** [[Paper]](https://arxiv.org/abs/2501.10053)
