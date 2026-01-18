@@ -132,6 +132,10 @@ Guidelines for contributing to this repository and adding citation information.
 
 ## Reasoning-Enhanced RAG
 ### Retrieval Optimization
+- (arXiv 2026) **Query Suggestion for Retrieval-Augmented Generation via Dynamic In-Context Learning** [[Paper]](https://arxiv.org/pdf/2601.08105)
+- (NeurIPS 2025) **R3: Optimizing Retrieval for RAG via Reinforcement Learning** [[Paper](https://arxiv.org/abs/2510.24652)] [[Code](https://github.com/Yuan-Li-FNLP/R3-RAG)] ![GitHub Repo stars](https://img.shields.io/github/stars/Yuan-Li-FNLP/R3-RAG?style=social)
+- (ArXiv 2025) Graph-Guided Concept Selection for Efficient Retrieval-Augmented Generation [[Paper]](https://arxiv.org/abs/2510.24120)
+- (ArXiv 2025) RL-QR: Generalized Reinforcement Learning for Retriever-Specific Query Rewriter with Unstructured Real-World Documents [[Paper]](https://arxiv.org/abs/2507.23242)
 - (AAAI 2025) **MaFeRw: Query Rewriting with Multi-Aspect Feedbacks for Retrieval-Augmented Large Language Models** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34732) [[Code]](https://github.com/yjEugenia/MaFeRw) ![GitHub Repo stars](https://img.shields.io/github/stars/yjEugenia/MaFeRw?style=social)
 - (ArXiv 2025) **Collab-RAG: Boosting Retrieval-Augmented Generation for Complex Question Answering via White-Box and Black-Box LLM Collaboration** [[Paper]](https://arxiv.org/abs/2504.04915) [[Code]](https://github.com/ritaranx/Collab-RAG/) ![GitHub Repo stars](https://img.shields.io/github/stars/ritaranx/Collab-RAG?style=social)
 - (ArXiv 2025) **DeepRetrieval: Hacking Real Search Engines and Retrievers with Large Language Models via Reinforcement Learning** [[Paper]](https://arxiv.org/abs/2503.00223) [[Code]](https://github.com/pat-jj/DeepRetrieval) ![GitHub Repo stars](https://img.shields.io/github/stars/pat-jj/DeepRetrieval?style=social)
@@ -149,6 +153,13 @@ Guidelines for contributing to this repository and adding citation information.
 - (ArXiv 2024) **RuleRAG: Rule-Guided Retrieval-Augmented Generation with Language Models for Question Answering** [[Paper]](https://arxiv.org/abs/2410.22353) [[Code]](https://anonymous.4open.science/r/RuleRAG)
 
 ### Integration Enhancement
+
+- (ArXiv 2025) TruthfulRAG: Resolving Factual-level Conflicts in Retrieval-Augmented Generation [[Paper]](https://arxiv.org/abs/2511.10375) [[Code](https://github.com/LinfengGao/ProbeRAG)] ![GitHub Repo stars](https://img.shields.io/github/stars/LinfengGao/ProbeRAG?style=social)
+
+- (OpenReview 2025) Probing Latent Knowledge Conflict for Faithful Retrieval-Augmented Generation [[Paper]](https://openreview.net/forum?id=NhO6iEUISf)
+
+- (COLM 2025) Retrieval-Augmented Generation with Conflicting Evidence (RAMDocs + MADAM-RAG) [[Paper]](https://arxiv.org/abs/2504.13079) [[Code]](https://github.com/HanNight/RAMDocs) ![GitHub Repo stars](https://img.shields.io/github/stars/HanNight/RAMDocs?style=social)
+
 - (ArXiv 2025) **DualRAG: A Dual-Process Approach to Integrate Reasoning and Retrieval for Multi-Hop Question Answering** [[Paper]](https://arxiv.org/abs/2504.18243)
 
 - (EMNLP 2024) **SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation** [[Paper]](https://aclanthology.org/2024.emnlp-main.178/) [[Code]](https://github.com/HITsz-TMG/SEER) ![GitHub Repo stars](https://img.shields.io/github/stars/HITsz-TMG/SEER?style=social)
@@ -156,6 +167,14 @@ Guidelines for contributing to this repository and adding citation information.
 - (ACL 2024) **BeamAggR: Beam Aggregation Reasoning over Multi-source Knowledge for Multi-hop Question Answering** [[Paper]](https://aclanthology.org/2024.acl-long.67/)
 
 ### Generation Enhancement
+- (arXiv 2026) **RAGShaper: Eliciting Sophisticated Agentic RAG Skills via Automated Data Synthesis** [[Paper](https://arxiv.org/pdf/2601.08699)]
+- (arXiv 2026) **Disco-RAG: Discourse-Aware Retrieval-Augmented Generation for Long-Form Question Answering** [[Paper](https://arxiv.org/abs/2601.04377)]
+- (ArXiv 2026) EviOmni: Learning to Extract Rational Evidence via Reinforcement Learning for Retrieval-Augmented Generation [[Paper]](https://arxiv.org/abs/2507.15586) [[Code]](https://huggingface.co/HIT-TMG/EviOmni-nq_train-1.5B)
+
+- (ArXiv 2026) TreePS-RAG: Tree-based Process Supervision for Retrieval-Augmented Generation [[Paper]](https://arxiv.org/abs/2601.06922)
+
+- (ACL 2025) RAG-Critic: Leveraging Automated Critic-Guided Agentic Workflow for Retrieval Augmented Generation [[Paper]](https://aclanthology.org/2025.acl-long.179/) [[Code]](https://github.com/RUC-NLPIR/RAG-Critic) ![GitHub Repo stars](https://img.shields.io/github/stars/RUC-NLPIR/RAG-Critic?style=social)
+
 - (AAAI 2025) **Improving Retrieval Augmented Language Model with Self-Reasoning** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34743)
 - (ArXiv 2025) **RARE: Retrieval-Augmented Reasoning Enhancement for Large Language Models** [[Paper]](https://arxiv.org/abs/2503.23513)
 - (ArXiv 2025) **AlignRAG: Leveraging Critique Learning for Evidence-Sensitive Retrieval-Augmented Reasoning** [[Paper]](https://arxiv.org/pdf/2504.14858v3) [[Code]](https://github.com/QQW-ing/RAG-ReasonAlignment) ![GitHub Repo stars](https://img.shields.io/github/stars/QQW-ing/RAG-ReasonAlignment?style=social)
@@ -168,6 +187,7 @@ Guidelines for contributing to this repository and adding citation information.
 ## RAG-Enhanced Reasoning
 ### External Knowledge Retrieval
 #### Knowledge Base
+- (arXiv 2025) **T-GRAG: A Dynamic GraphRAG Framework for Resolving Temporal Conflicts and Redundancy in Knowledge Retrieval** [[Paper](https://arxiv.org/abs/2508.01680)] [[Code]](https://github.com/Arvin0313/T-GRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/Arvin0313/T-GRAG?style=social)
 - (ICLR 2025) **KBLaM: Knowledge Base augmented Language Model** [[Paper]](https://arxiv.org/pdf/2410.10450) [[Code]](https://github.com/microsoft/KBLaM/) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/KBLaM?style=social)
 - (ArXiv 2025) **Assisting Mathematical Formalization with A Learning-based Premise Retriever** [[Paper]](https://arxiv.org/pdf/2501.13959) [[Code]](https://github.com/ruc-ai4math/Premise-Retrieval) ![GitHub Repo stars](https://img.shields.io/github/stars/ruc-ai4math/Premise-Retrieval?style=social)
 - (ArXiv 2025) **ReaRAG: Knowledge-guided Reasoning Enhances Factuality of Large Reasoning Models with Iterative Retrieval Augmented Generation** [[Paper]](https://arxiv.org/pdf/2503.21729) [[Code]](https://github.com/THU-KEG/ReaRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/THU-KEG/ReaRAG?style=social)
@@ -182,6 +202,9 @@ Guidelines for contributing to this repository and adding citation information.
 
 #### Web Retrieval
 
+- (arXiv 2026) **SmartSearch: Enhancing Dense Retrieval with Dynamic LLM-Guided Iterative Search** [[Paper](https://arxiv.org/abs/2601.04888)] [[Code]](https://github.com/RUC-NLPIR/SmartSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/RUC-NLPIR/SmartSearch?style=social)
+- (arXiv 2026) **D2Plan: A Dual-Agent Framework for Dynamic Global Planning in Web Search** [[Paper](https://arxiv.org/html/2601.08282v1)]
+- (arXiv 2025) **HiPRAG: A Hybrid Inference Framework for Retrieval-Augmented Generation** [[Paper](https://arxiv.org/abs/2510.07794)] [[Code]](https://github.com/qualidea1217/HiPRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/qualidea1217/HiPRAG?style=social)
 - (ICTIR 2025) **Distillation and Refinement of Reasoning in Small Language Models for Document Re-ranking** [[Paper]](https://arxiv.org/pdf/2504.03947) [[Code]](https://github.com/algoprog/InteRank) ![GitHub Repo stars](https://img.shields.io/github/stars/algoprog/InteRank?style=social)
 - (NAACL 2025) **Step-by-Step Fact Verification System for Medical Claims with Explainable Reasoning** [[Paper]](https://aclanthology.org/2025.naacl-short.68.pdf) [[Code]](https://github.com/jvladika/StepByStepFV) ![GitHub Repo stars](https://img.shields.io/github/stars/jvladika/StepByStepFV?style=social)
 
@@ -192,7 +215,8 @@ Guidelines for contributing to this repository and adding citation information.
 - (LREC-COLING 2024) **PACAR: Automated Fact-Checking with Planning and Customized Action Reasoning using Large Language Models** [[Paper]](https://aclanthology.org/2024.lrec-main.1099.pdf)
 
 #### Tool Using
-
+- (arXiv 2026) **Beyond Single-Shot: Multi-Step Tool Retrieval via Query Planning** [[Paper](https://arxiv.org/abs/2601.07782)]
+- (arXiv 2025) **Tool-to-Agent Retrieval: Bridging Tools and Agents for Scalable LLM Multi-Agent Systems** [[Paper](https://arxiv.org/abs/2511.01854)]
 - (COLING 2025) **Efficient Tool Use with Chain-of-Abstraction Reasoning** [[Paper]](https://aclanthology.org/2025.coling-main.185.pdf)
 - (NAACL 2025) **Meta-Reasoning Improves Tool Use in Large Language Models** [[Paper]](https://arxiv.org/pdf/2411.04535) [[Code]](https://github.com/lisaalaz/tecton?tab=readme-ov-file) ![GitHub Repo stars](https://img.shields.io/github/stars/lisaalaz/tecton?style=social)
 - (ArXiv 2025) **Self-Training Large Language Models for Tool-Use Without Demonstrations** [[Paper]](https://arxiv.org/pdf/2502.05867) [[Code]](https://github.com/neneluo/llm-tool-use) ![GitHub Repo stars](https://img.shields.io/github/stars/neneluo/llm-tool-use?style=social)
@@ -213,7 +237,9 @@ Guidelines for contributing to this repository and adding citation information.
 ### In-context Retrieval
 
 #### Prior Experience
-
+- (ArXiv 2026) **Structured Episodic Event Memory for LLM Agents** [[Paper](https://arxiv.org/abs/2601.06411v1)]
+- (arXiv 2026) **Synapse: An LLM-Based Cognitive Memory Architecture** [[Paper](https://arxiv.org/abs/2601.02744)]
+- (arXiv 2026) **SwiftMem: Continual Memory Learning for Large Language Models** [[Paper](https://arxiv.org/abs/2601.08160)]
 - (ICLR 2025) **Not All Heads Matter: A Head-Level KV Cache Compression Method with Integrated Retrieval and Reasoning** [[Paper]](https://arxiv.org/pdf/2410.19258?) [[Code]](https://github.com/FYYFU/HeadKV/tree/main) ![GitHub Repo stars](https://img.shields.io/github/stars/FYYFU/HeadKV?style=social)
 - (ICLR 2025) **Human-like Episodic Memory for Infinite Context LLMs** [[Paper]](https://openreview.net/pdf?id=BI2int5SAC)
 - (IEEE TPAMI 2025) **JARVIS-1: Open-World Multi-Task Agents With Memory-Augmented Multimodal Language Models** [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10778628&casa_token=gxJl_piLwrAAAAAA:UCDJkqg5WT7Hr2LSxZUwt6MDTxTH-FHDhL9Dw8XUFJWpcJJSsEMgC5u4wGhE4DvxATX2hK_0CSM)
@@ -226,7 +252,7 @@ Guidelines for contributing to this repository and adding citation information.
 - (ArXiv 2024) **RAP: Retrieval-Augmented Planning with Contextual Memory for Multimodal LLM Agents** [[Paper]](https://arxiv.org/pdf/2402.03610)
 
 #### Example or Training Data
-
+- (ArXiv 2025) **Q-RAG: Long Context Multi-Step Retrieval** [[Paper](https://arxiv.org/abs/2511.07328)]
 - (ICLR 2025) **OpenRAG: Optimizing RAG End-to-End viaIn-ContextRetrievalLearning** [[Paper]](https://openreview.net/pdf?id=WX0Y0rBsqo)
 - (COLING 2025) **PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation** [[Paper]](https://aclanthology.org/2025.coling-main.534.pdf)
 
@@ -327,8 +353,8 @@ Guidelines for contributing to this repository and adding citation information.
 - (KDD Cup 2024) **A Hybrid RAG System with Comprehensive Enhancement on Complex Reasoning** [[Paper]](https://arxiv.org/pdf/2408.05141)
 
 - (ICLR 2023) **ReAct: Synergizing Reasoning and Acting in Language Models** [[Paper]](https://arxiv.org/pdf/2210.03629) [[Code]](https://github.com/ysymyth/ReAct) ![GitHub Repo stars](https://img.shields.io/github/stars/ysymyth/ReAct?style=social)
-- (EMNLP 2023) **Measuring and Narrowing the Compositionality Gap in Language Models** [[Paper]](https://arxiv.org/pdf/2501.05366)
-- (ACL 2023) **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** [[Paper]](https://arxiv.org/pdf/2410.20753)
+- (EMNLP 2023) **Measuring and Narrowing the Compositionality Gap in Language Models** [[Paper]](https://arxiv.org/abs/2210.03350)
+- (ACL 2023) **Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions** [[Paper]](https://arxiv.org/pdf/2212.10509)
 
 ##### Supervised Fine-Tuning
 
@@ -356,7 +382,9 @@ Guidelines for contributing to this repository and adding citation information.
 - (ArXiv 2022) **WebGPT: Browser-assisted question-answering with human feedback** [[Paper]](https://arxiv.org/pdf/2112.09332)
 
 #### Multi-Agent
-
+- (arXiv 2026) **O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL** [[Paper](https://arxiv.org/pdf/2601.03743)] [[Code]](https://github.com/OPPO-PersonalAI/O-Researcher) ![GitHub Repo stars](https://img.shields.io/github/stars/OPPO-PersonalAI/O-Researcher?style=social)
+- (arXiv 2025) **Enterprise Deep Research: Steerable MultiAgent Deep Research for Enterprise Analytics** [[Paper](https://arxiv.org/abs/2510.17797)]
+- (arXiv 2025) **Universal Deep Research: Bring Your Own Model and Strategy** [[Paper](https://arxiv.org/abs/2509.00244)] [[Code]](https://github.com/NVlabs/UniversalDeepResearch) ![GitHub Repo stars](https://img.shields.io/github/stars/NVlabs/UniversalDeepResearch?style=social)
 - (ACL 2025) **Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research** [[Paper]](https://arxiv.org/pdf/2502.04644) [[Code]](https://github.com/theworldofagents/Agentic-Reasoning) ![GitHub Repo stars](https://img.shields.io/github/stars/theworldofagents/Agentic-Reasoning?style=social)
 - (ArXiv 2025) **Collab-RAG: Boosting Retrieval-Augmented Generation for Complex Question Answering via White-Box and Black-Box LLM Collaboration** [[Paper]](https://arxiv.org/pdf/2504.04915)
 - (ArXiv 2025) **Knowledge-Aware Iterative Retrieval for Multi-Agent Systems** [[Paper]](https://arxiv.org/pdf/2503.13275)
