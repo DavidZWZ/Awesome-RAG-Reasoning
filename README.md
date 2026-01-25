@@ -378,8 +378,8 @@ Guidelines for contributing to this repository and adding citation information.
 - (ArXiv 2025) **ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning** [[Paper]](https://arxiv.org/pdf/2503.19470) [[Code]](https://github.com/Agent-RL/ReSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/Agent-RL/ReSearch?style=social)
 - (ArXiv 2025) **ZeroSearch: Incentivize the Search Capability of LLMs without Searching** [[Paper]](https://arxiv.org/pdf/2505.04588) [[Code]](https://github.com/Alibaba-NLP/ZeroSearch) ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-NLP/ZeroSearch?style=social)
 - (ArXiv 2025) **ReARTeR: Retrieval-Augmented Reasoning with Trustworthy Process Rewarding** [[Paper]](https://arxiv.org/pdf/2501.07861)
-
 - (ArXiv 2022) **WebGPT: Browser-assisted question-answering with human feedback** [[Paper]](https://arxiv.org/pdf/2112.09332)
+- (ArXiv 2025) **Search Self-play: Pushing the Frontier of Agent Capability without Supervision** [[Paper]](https://arxiv.org/abs/2510.18821) [[Code]](https://github.com/Alibaba-Quark/SSP) ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-Quark/SSP?style=social)
 
 #### Multi-Agent
 - (arXiv 2026) **O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL** [[Paper](https://arxiv.org/pdf/2601.03743)] [[Code]](https://github.com/OPPO-PersonalAI/O-Researcher) ![GitHub Repo stars](https://img.shields.io/github/stars/OPPO-PersonalAI/O-Researcher?style=social)
