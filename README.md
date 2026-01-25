@@ -4,7 +4,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-RAG_Reasoning-b31b1b.svg)]()
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
 [![Contribution Welcome](https://img.shields.io/badge/Contributions-welcome-blue)]()
-[![Code](https://img.shields.io/badge/Code-GithubRepo-c8a4bf.svg)](https://github.com/DavidZWZ/Awesome-RAG-Reseasoning) 
+[![Code](https://img.shields.io/badge/Code-GithubRepo-c8a4bf.svg)](https://github.com/DavidZWZ/Awesome-RAG-Reasoning) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
