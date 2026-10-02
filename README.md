@@ -446,6 +446,7 @@ Guidelines for contributing to this repository and adding citation information.
 
 ##### Reinforcement Learning
 
+- (arXiv 2026) **Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents** [[Paper]](https://arxiv.org/abs/2609.37236) [[Code]](https://github.com/dolev31/ProactiveInquirer) ![GitHub Repo stars](https://img.shields.io/github/stars/dolev31/ProactiveInquirer?style=social)
 - (arXiv 2026) **FaithMed: Training LLMs For Faithful Evidence-Based Medical Reasoning** [[Paper]](https://arxiv.org/abs/2607.01440) [[Code]](https://github.com/cxcscmu/FaithMed) ![GitHub Repo stars](https://img.shields.io/github/stars/cxcscmu/FaithMed?style=social)
 - (arXiv 2026) **Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses** [[Paper]](https://arxiv.org/abs/2606.02373) [[Code]](https://github.com/pat-jj/harness-1) ![GitHub Repo stars](https://img.shields.io/github/stars/pat-jj/harness-1?style=social)
 - (arXiv 2026) **LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards** [[Paper]](https://arxiv.org/abs/2605.31584) [[Code]](https://github.com/THU-KEG/LongTraceRL) ![GitHub Repo stars](https://img.shields.io/github/stars/THU-KEG/LongTraceRL?style=social)
