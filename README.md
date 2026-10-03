@@ -193,6 +193,7 @@ Guidelines for contributing to this repository and adding citation information.
 - (ACL 2024) **BeamAggR: Beam Aggregation Reasoning over Multi-source Knowledge for Multi-hop Question Answering** [[Paper]](https://aclanthology.org/2024.acl-long.67/)
 
 ### Generation Enhancement
+- (EMNLP 2026 Main) **TagPR: Tag-Guided Process Supervision for Personalization Reasoning in Large Language Models** [[Paper]](https://arxiv.org/abs/2509.23140)
 - (ICPR 2026) **SERC: LDPC-Inspired Semantic Error Correction for Retrieval-Augmented Generation** [[Paper]](https://arxiv.org/abs/2605.28837) [[Code]](https://github.com/labhai/SERC) ![GitHub Repo stars](https://img.shields.io/github/stars/labhai/SERC?style=social)
 - (ICLR 2026 Workshop) **PAVE: Premise-Aware Validation and Editing for Retrieval-Augmented LLMs** [[Paper]](https://arxiv.org/abs/2603.20673)
 - (ACL 2026 Workshop) **CounterRefine: Answer-Conditioned Counterevidence Retrieval for Inference-Time Knowledge Repair in Factual Question Answering** [[Paper]](https://arxiv.org/abs/2603.16091)
