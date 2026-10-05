@@ -326,6 +326,7 @@ Guidelines for contributing to this repository and adding citation information.
 
 #### Tree-based
 
+- (NeurIPS 2026) **Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering** [[Paper]](https://arxiv.org/abs/2608.30468) [[Code]](https://github.com/juevn/Hi-Q) ![GitHub Repo stars](https://img.shields.io/github/stars/juevn/Hi-Q?style=social)
 - (ICML 2026) **Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation** [[Paper]](https://arxiv.org/abs/2605.00529) [[Code]](https://github.com/Newiz430/Psi-RAG) ![GitHub Repo stars](https://img.shields.io/github/stars/Newiz430/Psi-RAG?style=social)
 - (arXiv 2026) **Self-Correcting RAG: Enhancing Faithfulness via MMKP Context Selection and NLI-Guided MCTS** [[Paper]](https://arxiv.org/abs/2604.10734) [[Code]](https://github.com/xjiacs/Self-Correcting-RAG) ![GitHub Repo stars](https://img.shields.io/github/stars/xjiacs/Self-Correcting-RAG?style=social)
 - (ACL 2025) **ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search** [[Paper]](https://arxiv.org/abs/2504.10893) [[Code]](https://github.com/OpenCausaLab/ARise) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenCausaLab/ARise?style=social)
