@@ -468,6 +468,7 @@ Guidelines for contributing to this repository and adding citation information.
 - (ArXiv 2025) **Search Self-play: Pushing the Frontier of Agent Capability without Supervision** [[Paper]](https://arxiv.org/abs/2510.18821) [[Code]](https://github.com/Alibaba-Quark/SSP) ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-Quark/SSP?style=social)
 
 #### Multi-Agent
+- (arXiv 2026) **MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation** [[Paper]](https://arxiv.org/abs/2610.23234)
 - (arXiv 2026) **Think Big, Search Small: Where Capacity Matters in Hierarchical Search Agents?** [[Paper]](https://arxiv.org/abs/2607.07548) [[Code]](https://github.com/QinnanCai0115/role-factorized-search) ![GitHub Repo stars](https://img.shields.io/github/stars/QinnanCai0115/role-factorized-search?style=social)
 - (arXiv 2026) **To Isolate or to Score? Model-Adaptive Assessment for Cost-Efficient Multi-Agent RAG** [[Paper]](https://arxiv.org/abs/2606.25191) [[Code]](https://github.com/js-lee-AI/MADARA) ![GitHub Repo stars](https://img.shields.io/github/stars/js-lee-AI/MADARA?style=social)
 - (arXiv 2026) **Towards Verifiable Multimodal Deep Research: A Multi-Agent Harness for Interleaved Report Generation** [[Paper]](https://arxiv.org/abs/2605.29861) [[Code]](https://github.com/SnowNation101/Ptah) ![GitHub Repo stars](https://img.shields.io/github/stars/SnowNation101/Ptah?style=social)
